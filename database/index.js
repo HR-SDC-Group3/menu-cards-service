@@ -8,6 +8,7 @@ db.once('open', () => {
   console.log('+++ Connected to Menus DB +++');
 });
 
+// notes display at bottom of component, des display under name.
 const menuSchema = new mongoose.Schema({
   _id: 'Number',
   restName: 'String',
