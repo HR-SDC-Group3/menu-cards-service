@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const sampleData = require('./sampleData.js');
 
 mongoose.connect('mongodb://localhost/menus');
 
@@ -10,6 +9,7 @@ db.once('open', () => {
 });
 
 const menuSchema = new mongoose.Schema({
+  _id: 'Number',
   restName: 'String',
   cards: [
     {
@@ -39,6 +39,3 @@ const menuSchema = new mongoose.Schema({
 });
 
 const Menu = mongoose.model('Menu', menuSchema);
-
-const rest1 = new Menu(sampleData);
-rest1.save();
