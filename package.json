@@ -7,7 +7,9 @@
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
+  "scripts": {
+    "seedDB": "mongoimport --db FEC --collection menus --file ./database/sampleData.json --jsonArray"
+  },
   "dependencies": {
     "mongoose": "^5.4.0"
   },
