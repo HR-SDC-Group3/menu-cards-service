@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/menus');
+mongoose.connect('mongodb://localhost/FEC');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -40,3 +40,16 @@ const menuSchema = new mongoose.Schema({
 });
 
 const Menu = mongoose.model('Menu', menuSchema);
+
+const retrieveAll = (id, cb) => {
+  Menu.find({ _id: id }, (err, menu) => {
+    if (err) console.error(err);
+
+    console.log('+++Retrieving menu from DB: ', menu);
+    cb(menu);
+  });
+};
+
+module.exports = {
+  retrieveAll,
+};

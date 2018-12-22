@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+const db = require('./../database/index.js');
 
 const app = express();
 
@@ -10,9 +11,12 @@ app.use(bodyParser());
 app.use(morgan('tiny'));
 
 // -------- crud -------- //
-// app.get('/restaurants/:id', (req, res) => {
-//   res.send('Hello World');
-// });
+app.get('/api/restaurants/:id/menu', (req, res) => {
+  console.log('--- SERVER RECIEVING GET REQ TO ID: ', req.params.id);
+  db.retrieveAll(req.params.id, (menu) => {
+    res.send(menu);
+  });
+});
 
 // -------- server -------- //
 const port = 3001;
