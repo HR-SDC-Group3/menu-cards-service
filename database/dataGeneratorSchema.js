@@ -25,8 +25,6 @@
                       addOnName: '{{random("Applewood Smoked Bacon", "Avocado")}}',
                       addOnPrice: '{{random("$4.00", "$2.00")}}'
                     }
-                    
-                    
                   ]
               }
             ]
