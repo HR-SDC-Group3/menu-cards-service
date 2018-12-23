@@ -11,13 +11,11 @@ class App extends React.Component {
     this.getMenus = this.getMenus.bind(this);
   }
 
-  
-
   getMenus(id) {
     $.ajax({
       type: 'GET',
       url: `/api/restaurants/${id}/menu`,
-      success: console.log
+      success: (data) => { console.log('AJAX RETURN: ', data) }
     })
   }
 

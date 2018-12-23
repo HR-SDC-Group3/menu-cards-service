@@ -5,7 +5,7 @@ mongoose.connect('mongodb://localhost/FEC');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
-  console.log('+++ Connected to Menus DB +++');
+  console.log('+++ Connected to FEC DB +++');
 });
 
 // notes display at bottom of component, des display under name.
