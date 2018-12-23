@@ -8,27 +8,26 @@ db.once('open', () => {
   console.log('+++ Connected to FEC DB +++');
 });
 
-// notes display at bottom of component, des display under name.
+// notes display at bottom of component, description display under name of component.
 const menuSchema = new mongoose.Schema({
   _id: 'Number',
-  restName: 'String',
   cards: [
     {
-      cardName: 'String',
-      cardNotes: 'String',
+      name: 'String',
+      notes: 'String',
       categories: [
         {
-          categName: 'String',
-          categDes: 'String',
+          name: 'String',
+          description: 'String',
           items: [
             {
-              itemName: 'String',
-              itemDes: 'String',
-              itemPrice: 'String',
+              name: 'String',
+              description: 'String',
+              price: 'String',
               addOns: [
                 {
-                  addOnName: 'String',
-                  addOnPrice: 'String',
+                  name: 'String',
+                  price: 'String',
                 },
               ],
             },
