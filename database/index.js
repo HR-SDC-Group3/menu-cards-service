@@ -8,14 +8,13 @@ db.once('open', () => {
   console.log('+++ Connected to FEC DB +++');
 });
 
-// notes display at bottom of component, description display under name of component.
 const menuSchema = new mongoose.Schema({
   _id: 'Number',
   cards: [
     {
       name: 'String',
-      notes: 'String',
-      categories: [
+      footnote: 'String',
+      sections: [
         {
           name: 'String',
           description: 'String',

@@ -4,8 +4,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Only available 8am - 11:30am",
-        "categories": [
+        "footnote": "Only available 8am - 11:30am",
+        "sections": [
           {
             "name": "Snack",
             "description": "Light, fresh, and guaranteed to start you on right foot",
@@ -17,7 +17,7 @@
                 "addOns": [
                   {
                     "name": "Applewood Smoked Bacon",
-                    "price": "+$4.00"
+                    "price": "$4.00"
                   }
                 ]
               },
@@ -40,7 +40,7 @@
           },
           {
             "name": "Sweet",
-            "description": "Who doesn\"t have a bit of a sweet tooth?",
+            "description": "Who doesn't have a bit of a sweet tooth?",
             "items": [
               {
                 "name": "Texas French Toast",
@@ -54,11 +54,11 @@
                 "addOns": [
                   {
                     "name": "Vanilla Gelato",
-                    "price": "+$4.00"
+                    "price": "$4.00"
                   },
                   {
                     "name": "St. George Nola Coffee Liquor",
-                    "price": "+$6.00"
+                    "price": "$6.00"
                   }
                 ]
               },
@@ -79,7 +79,7 @@
                 "addOns": [
                   {
                     "name": "House-Made Ham",
-                    "price": "+$5.00"
+                    "price": "$5.00"
                   }
                 ]
               },
@@ -139,8 +139,8 @@
       },
       {
         "name": "Spirits, Beer & Wine",
-        "notes": "Must be 21+ to order",
-        "categories": [
+        "footnote": "Must be 21+ to order",
+        "sections": [
           {
             "name": "Wines by the Glass"
           },
@@ -237,8 +237,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Cupidatat excepteur commodo est nisi occaecat non.",
-        "categories": [
+        "footnote": "Cupidatat excepteur commodo est nisi occaecat non.",
+        "sections": [
           {
             "name": "Entree",
             "description": "duis labore deserunt ut ullamco dolore est fugiat ullamco esse labore commodo pariatur nisi aute reprehenderit cupidatat ullamco est esse amet occaecat eiusmod incididunt eu",
@@ -350,8 +350,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Culpa anim sunt et fugiat eiusmod elit consequat ut eu.",
-        "categories": [
+        "footnote": "Culpa anim sunt et fugiat eiusmod elit consequat ut eu.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "esse voluptate aliqua ea amet ea officia aliqua labore tempor dolore aliquip labore est aliqua tempor incididunt aliqua cupidatat officia id ipsum nulla dolore non",
@@ -477,8 +477,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Nisi voluptate adipisicing laboris aliquip eiusmod veniam excepteur id commodo aliquip cillum do.",
-        "categories": [
+        "footnote": "Nisi voluptate adipisicing laboris aliquip eiusmod veniam excepteur id commodo aliquip cillum do.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "incididunt labore nulla exercitation excepteur dolor consectetur irure exercitation irure proident labore reprehenderit magna in id exercitation ea quis pariatur duis dolor esse nisi aliqua",
@@ -609,8 +609,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Adipisicing voluptate et veniam nisi dolor occaecat ad Lorem mollit mollit adipisicing.",
-        "categories": [
+        "footnote": "Adipisicing voluptate et veniam nisi dolor occaecat ad Lorem mollit mollit adipisicing.",
+        "sections": [
           {
             "name": "Entree",
             "description": "quis cupidatat reprehenderit dolore ea et dolore ut velit ut dolor laborum amet in voluptate est cupidatat cillum nulla ad enim tempor aute dolor incididunt",
@@ -797,8 +797,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Lorem occaecat sunt mollit esse esse deserunt.",
-        "categories": [
+        "footnote": "Lorem occaecat sunt mollit esse esse deserunt.",
+        "sections": [
           {
             "name": "Bites",
             "description": "anim fugiat nostrud ad irure eiusmod ad elit deserunt velit in deserunt in esse ullamco incididunt occaecat ex magna sint deserunt minim nulla proident quis",
@@ -857,8 +857,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Commodo anim excepteur magna nisi non in quis amet ullamco eu est ipsum labore officia.",
-        "categories": [
+        "footnote": "Commodo anim excepteur magna nisi non in quis amet ullamco eu est ipsum labore officia.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "cupidatat pariatur proident sint amet esse elit consequat do magna esse qui eiusmod sit tempor voluptate excepteur eiusmod enim enim excepteur ad commodo in do",
@@ -1070,8 +1070,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Nisi non aliqua consectetur nulla adipisicing nulla consectetur exercitation proident labore.",
-        "categories": [
+        "footnote": "Nisi non aliqua consectetur nulla adipisicing nulla consectetur exercitation proident labore.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sint commodo ea deserunt irure officia ut pariatur laboris pariatur et minim ullamco velit qui ea sunt quis cupidatat amet proident officia Lorem anim velit",
@@ -1161,8 +1161,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliqua officia quis labore culpa amet voluptate ad ea id sunt.",
-        "categories": [
+        "footnote": "Aliqua officia quis labore culpa amet voluptate ad ea id sunt.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "veniam adipisicing commodo officia magna dolore qui nostrud sint aute qui consectetur nisi ullamco esse excepteur adipisicing exercitation adipisicing labore aliqua fugiat cupidatat ea officia",
@@ -1370,8 +1370,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Pariatur ea consectetur laboris voluptate sunt et exercitation occaecat dolore.",
-        "categories": [
+        "footnote": "Pariatur ea consectetur laboris voluptate sunt et exercitation occaecat dolore.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "occaecat sunt excepteur quis qui tempor ut qui sit et nulla velit anim do enim officia commodo Lorem cillum qui incididunt ipsum officia tempor eiusmod",
@@ -1484,8 +1484,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Exercitation quis laboris ullamco occaecat consectetur cupidatat ipsum eu ea elit duis enim occaecat dolor.",
-        "categories": [
+        "footnote": "Exercitation quis laboris ullamco occaecat consectetur cupidatat ipsum eu ea elit duis enim occaecat dolor.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "nostrud anim ipsum nostrud ex consequat sint reprehenderit exercitation ea est laborum labore Lorem non incididunt quis culpa adipisicing anim eiusmod dolore exercitation duis commodo",
@@ -1578,8 +1578,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Adipisicing commodo est qui pariatur culpa tempor dolor nulla in id in.",
-        "categories": [
+        "footnote": "Adipisicing commodo est qui pariatur culpa tempor dolor nulla in id in.",
+        "sections": [
           {
             "name": "Bites",
             "description": "laborum consectetur proident quis tempor sunt velit laboris ullamco aliquip qui consequat pariatur minim laborum sint mollit mollit enim adipisicing exercitation amet ex irure elit",
@@ -1784,8 +1784,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Proident sint qui ad irure aliqua culpa anim irure incididunt adipisicing laboris.",
-        "categories": [
+        "footnote": "Proident sint qui ad irure aliqua culpa anim irure incididunt adipisicing laboris.",
+        "sections": [
           {
             "name": "Entree",
             "description": "dolor veniam labore esse dolore consectetur culpa labore veniam reprehenderit voluptate est aute consectetur qui Lorem dolore veniam ex tempor minim duis anim duis in",
@@ -1969,8 +1969,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Laboris eiusmod do esse culpa voluptate duis irure Lorem sit.",
-        "categories": [
+        "footnote": "Laboris eiusmod do esse culpa voluptate duis irure Lorem sit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "exercitation est occaecat non ad ipsum reprehenderit deserunt adipisicing quis sit qui nulla quis excepteur excepteur adipisicing occaecat est dolor minim do ullamco aute labore",
@@ -2175,8 +2175,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Veniam officia consectetur deserunt nostrud adipisicing consectetur duis dolore irure.",
-        "categories": [
+        "footnote": "Veniam officia consectetur deserunt nostrud adipisicing consectetur duis dolore irure.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "nisi deserunt officia ullamco exercitation aliqua elit ea magna laboris in non ea est do voluptate sunt sit cupidatat nisi commodo excepteur aliqua quis occaecat",
@@ -2349,8 +2349,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Minim consectetur tempor et et excepteur.",
-        "categories": [
+        "footnote": "Minim consectetur tempor et et excepteur.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "non veniam sint aliqua ad exercitation cupidatat ullamco officia cupidatat excepteur minim proident fugiat dolore consectetur eiusmod dolor incididunt et eiusmod amet cillum labore sunt",
@@ -2480,8 +2480,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Amet incididunt Lorem mollit ut non proident.",
-        "categories": [
+        "footnote": "Amet incididunt Lorem mollit ut non proident.",
+        "sections": [
           {
             "name": "Entree",
             "description": "enim mollit aliquip aute tempor cupidatat labore reprehenderit eu do nulla nostrud et dolore amet labore ea aliqua adipisicing labore aliqua do consectetur laborum veniam",
@@ -2646,8 +2646,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Labore aliquip aute laborum ut sunt laborum incididunt eiusmod occaecat id occaecat.",
-        "categories": [
+        "footnote": "Labore aliquip aute laborum ut sunt laborum incididunt eiusmod occaecat id occaecat.",
+        "sections": [
           {
             "name": "Entree",
             "description": "dolor in est nostrud deserunt ad ea duis culpa aute ipsum reprehenderit voluptate veniam est Lorem voluptate non dolore elit consectetur sint quis Lorem nostrud",
@@ -2846,8 +2846,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Duis velit non magna culpa ipsum laborum ullamco pariatur.",
-        "categories": [
+        "footnote": "Duis velit non magna culpa ipsum laborum ullamco pariatur.",
+        "sections": [
           {
             "name": "Entree",
             "description": "voluptate mollit labore commodo proident in cupidatat eu irure duis labore eu occaecat in enim ullamco fugiat reprehenderit qui incididunt consectetur voluptate aliquip dolor qui",
@@ -2944,8 +2944,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Laborum magna voluptate do aliquip sint pariatur eiusmod proident ipsum magna nulla culpa.",
-        "categories": [
+        "footnote": "Laborum magna voluptate do aliquip sint pariatur eiusmod proident ipsum magna nulla culpa.",
+        "sections": [
           {
             "name": "Entree",
             "description": "laboris aliqua amet est duis magna cillum anim sit cillum voluptate id officia pariatur aute do occaecat qui anim aliquip tempor voluptate deserunt deserunt labore",
@@ -3237,8 +3237,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Proident dolor et ea dolor id ipsum elit laborum ea aliquip enim.",
-        "categories": [
+        "footnote": "Proident dolor et ea dolor id ipsum elit laborum ea aliquip enim.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ipsum ex mollit esse eu id reprehenderit Lorem do adipisicing anim exercitation excepteur cupidatat eu ea mollit exercitation aliqua eu nostrud laborum ex incididunt fugiat",
@@ -3316,8 +3316,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Minim sunt in incididunt cupidatat aliquip consequat in nisi elit adipisicing excepteur duis.",
-        "categories": [
+        "footnote": "Minim sunt in incididunt cupidatat aliquip consequat in nisi elit adipisicing excepteur duis.",
+        "sections": [
           {
             "name": "Entree",
             "description": "consequat amet proident nisi nisi nulla veniam consequat non enim duis occaecat consequat eu voluptate pariatur veniam laborum duis veniam sint do sunt do aute",
@@ -3536,8 +3536,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Non labore dolor aliquip dolore minim sunt irure non anim.",
-        "categories": [
+        "footnote": "Non labore dolor aliquip dolore minim sunt irure non anim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "ipsum sunt voluptate enim tempor in magna exercitation mollit elit sit sint nostrud est dolor velit cillum ea sint in enim ipsum minim qui ex",
@@ -3670,8 +3670,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Voluptate eiusmod magna do eiusmod exercitation esse.",
-        "categories": [
+        "footnote": "Voluptate eiusmod magna do eiusmod exercitation esse.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ad mollit commodo velit ad anim adipisicing voluptate culpa laborum ea laboris aliquip esse mollit fugiat non pariatur reprehenderit duis esse anim excepteur culpa aliquip",
@@ -3789,8 +3789,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Pariatur labore officia eu non ad ex anim consequat aute do non fugiat.",
-        "categories": [
+        "footnote": "Pariatur labore officia eu non ad ex anim consequat aute do non fugiat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "officia ex commodo sunt deserunt consectetur excepteur occaecat quis esse amet labore nisi occaecat ullamco aute ad nulla voluptate commodo qui exercitation aliqua mollit irure",
@@ -4054,8 +4054,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Cillum ex aliqua aliquip occaecat enim laboris anim laborum exercitation.",
-        "categories": [
+        "footnote": "Cillum ex aliqua aliquip occaecat enim laboris anim laborum exercitation.",
+        "sections": [
           {
             "name": "Entree",
             "description": "sint magna ex Lorem enim adipisicing excepteur do dolore ea consequat cillum eiusmod esse aliqua quis eu qui irure duis enim id quis consequat est",
@@ -4180,8 +4180,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Dolor culpa enim veniam ullamco eiusmod minim eiusmod amet commodo enim.",
-        "categories": [
+        "footnote": "Dolor culpa enim veniam ullamco eiusmod minim eiusmod amet commodo enim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "dolore ut sint ex quis cillum enim proident ut ea non commodo cupidatat sit quis commodo aliqua eiusmod sint magna eu aute aute commodo et",
@@ -4388,8 +4388,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Anim reprehenderit ullamco ullamco minim fugiat ad in veniam.",
-        "categories": [
+        "footnote": "Anim reprehenderit ullamco ullamco minim fugiat ad in veniam.",
+        "sections": [
           {
             "name": "Entree",
             "description": "ea dolor consequat cillum anim et sit fugiat nostrud magna culpa nisi voluptate eu sunt exercitation aute enim nostrud amet mollit ipsum aute nulla ex",
@@ -4507,8 +4507,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Proident ut id ut est exercitation amet aliquip commodo fugiat do id reprehenderit adipisicing.",
-        "categories": [
+        "footnote": "Proident ut id ut est exercitation amet aliquip commodo fugiat do id reprehenderit adipisicing.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "incididunt exercitation deserunt consectetur cupidatat quis Lorem ea ullamco labore dolor aute nulla id amet nisi elit irure voluptate ullamco laborum occaecat ea id ea",
@@ -4615,8 +4615,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Do Lorem ut Lorem cillum in adipisicing nisi.",
-        "categories": [
+        "footnote": "Do Lorem ut Lorem cillum in adipisicing nisi.",
+        "sections": [
           {
             "name": "Entree",
             "description": "deserunt mollit irure voluptate non esse exercitation enim amet sint labore reprehenderit eiusmod fugiat officia reprehenderit velit est sint nostrud ipsum pariatur veniam sint pariatur",
@@ -4945,8 +4945,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Velit aute velit deserunt consequat veniam eu elit dolor officia fugiat velit esse duis minim.",
-        "categories": [
+        "footnote": "Velit aute velit deserunt consequat veniam eu elit dolor officia fugiat velit esse duis minim.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "aliquip quis pariatur et non adipisicing nulla aliqua exercitation occaecat cupidatat mollit duis esse voluptate adipisicing dolor minim deserunt aliquip id aute aliqua anim nisi",
@@ -5027,8 +5027,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Cillum aliquip deserunt fugiat adipisicing consectetur est consequat irure exercitation sunt dolor.",
-        "categories": [
+        "footnote": "Cillum aliquip deserunt fugiat adipisicing consectetur est consequat irure exercitation sunt dolor.",
+        "sections": [
           {
             "name": "Bites",
             "description": "consectetur do occaecat fugiat voluptate eu veniam tempor laborum cupidatat ullamco mollit enim non quis pariatur quis labore aute labore consectetur ipsum est id laboris",
@@ -5303,8 +5303,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "In culpa magna cillum quis aliqua id enim.",
-        "categories": [
+        "footnote": "In culpa magna cillum quis aliqua id enim.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "consectetur sint adipisicing nulla quis consequat velit dolore aute aliquip tempor do quis mollit aute nostrud labore irure commodo adipisicing aliqua mollit mollit laborum aliqua",
@@ -5537,8 +5537,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Do enim do consectetur occaecat sint voluptate amet.",
-        "categories": [
+        "footnote": "Do enim do consectetur occaecat sint voluptate amet.",
+        "sections": [
           {
             "name": "Entree",
             "description": "non cillum cillum nisi non veniam excepteur ad Lorem laboris in nulla culpa elit aliqua laboris Lorem et nulla mollit nostrud elit adipisicing excepteur nostrud",
@@ -5727,8 +5727,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Consectetur ad duis aliqua et ipsum labore amet ipsum qui cillum.",
-        "categories": [
+        "footnote": "Consectetur ad duis aliqua et ipsum labore amet ipsum qui cillum.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "sunt reprehenderit sunt eu aute occaecat excepteur et consequat mollit aute cillum dolore officia veniam officia cillum velit cupidatat aliqua qui culpa fugiat nulla exercitation",
@@ -5884,8 +5884,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Adipisicing quis irure et ea culpa aliquip consequat ex quis laborum fugiat officia quis incididunt.",
-        "categories": [
+        "footnote": "Adipisicing quis irure et ea culpa aliquip consequat ex quis laborum fugiat officia quis incididunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "tempor eu nostrud in nostrud consequat laborum pariatur magna aute ad non duis ipsum velit enim enim labore quis ut sunt incididunt labore commodo nostrud",
@@ -6041,8 +6041,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Aliqua pariatur nulla nulla est incididunt elit.",
-        "categories": [
+        "footnote": "Aliqua pariatur nulla nulla est incididunt elit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ex sunt dolore elit anim dolor enim irure ut mollit irure anim aute pariatur pariatur do fugiat exercitation incididunt non in magna irure id labore",
@@ -6145,8 +6145,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Qui ad anim laborum elit et reprehenderit voluptate ea sunt esse in proident proident minim.",
-        "categories": [
+        "footnote": "Qui ad anim laborum elit et reprehenderit voluptate ea sunt esse in proident proident minim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "enim labore aliquip ea sit nostrud occaecat in elit dolor dolore consequat eu nulla incididunt veniam Lorem voluptate consequat nisi qui minim laborum laboris est",
@@ -6302,8 +6302,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Et elit proident duis velit mollit et.",
-        "categories": [
+        "footnote": "Et elit proident duis velit mollit et.",
+        "sections": [
           {
             "name": "Entree",
             "description": "culpa laboris ipsum commodo id ea ex incididunt nostrud ipsum deserunt veniam velit proident Lorem nisi tempor officia dolor cillum id est ullamco sit est",
@@ -6407,8 +6407,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Nostrud duis excepteur cupidatat consectetur fugiat elit do dolore qui irure culpa.",
-        "categories": [
+        "footnote": "Nostrud duis excepteur cupidatat consectetur fugiat elit do dolore qui irure culpa.",
+        "sections": [
           {
             "name": "Bites",
             "description": "cillum reprehenderit ut tempor minim sunt ipsum non eu excepteur incididunt duis aute nulla irure et fugiat ut culpa dolore amet minim veniam dolore magna",
@@ -6683,8 +6683,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Mollit cillum do ad non.",
-        "categories": [
+        "footnote": "Mollit cillum do ad non.",
+        "sections": [
           {
             "name": "Entree",
             "description": "dolor officia consequat ullamco qui occaecat aute in elit duis ullamco ut pariatur dolore eiusmod cillum cillum culpa laborum cillum non dolore ut dolore sint",
@@ -6787,8 +6787,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Qui quis anim dolor est ex non nisi quis reprehenderit et consequat deserunt.",
-        "categories": [
+        "footnote": "Qui quis anim dolor est ex non nisi quis reprehenderit et consequat deserunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "nisi duis cupidatat consectetur dolor voluptate quis dolor adipisicing reprehenderit voluptate ipsum et nisi esse laboris occaecat tempor in id qui velit aliqua cupidatat commodo",
@@ -6966,8 +6966,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Cupidatat sunt dolor eu qui excepteur ut.",
-        "categories": [
+        "footnote": "Cupidatat sunt dolor eu qui excepteur ut.",
+        "sections": [
           {
             "name": "Entree",
             "description": "commodo ad elit do occaecat aliqua aliquip fugiat anim anim incididunt ea laboris id adipisicing labore laboris deserunt irure dolore in officia minim culpa ex",
@@ -7133,8 +7133,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Consequat consequat culpa ex consectetur incididunt duis reprehenderit aliquip laborum ex et mollit magna enim.",
-        "categories": [
+        "footnote": "Consequat consequat culpa ex consectetur incididunt duis reprehenderit aliquip laborum ex et mollit magna enim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "ea sit magna laborum quis est deserunt Lorem ea ut Lorem commodo fugiat ullamco commodo ex id laboris voluptate nostrud excepteur duis in culpa id",
@@ -7334,8 +7334,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Veniam sint eiusmod laborum enim deserunt aute deserunt commodo.",
-        "categories": [
+        "footnote": "Veniam sint eiusmod laborum enim deserunt aute deserunt commodo.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sint eu consequat incididunt dolor labore culpa elit ipsum qui duis magna anim culpa deserunt sit id pariatur ex cillum non sint cupidatat sit aliquip",
@@ -7559,8 +7559,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliquip adipisicing adipisicing labore occaecat culpa commodo incididunt veniam consectetur aliqua minim cillum nulla.",
-        "categories": [
+        "footnote": "Aliquip adipisicing adipisicing labore occaecat culpa commodo incididunt veniam consectetur aliqua minim cillum nulla.",
+        "sections": [
           {
             "name": "Entree",
             "description": "id nisi amet aliquip enim consequat magna mollit incididunt ex dolore labore cupidatat consequat aliquip cillum reprehenderit voluptate id eu ut proident anim eiusmod reprehenderit",
@@ -7689,8 +7689,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Ullamco cupidatat ut incididunt ea exercitation incididunt elit proident.",
-        "categories": [
+        "footnote": "Ullamco cupidatat ut incididunt ea exercitation incididunt elit proident.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "cupidatat deserunt velit tempor qui veniam eiusmod duis magna laborum ea eu sunt minim reprehenderit veniam elit qui nulla fugiat aute sint occaecat incididunt eiusmod",
@@ -7824,8 +7824,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Laboris adipisicing est exercitation cillum adipisicing qui.",
-        "categories": [
+        "footnote": "Laboris adipisicing est exercitation cillum adipisicing qui.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sint excepteur laborum labore deserunt ad tempor do culpa consectetur ad in aliqua laborum proident id consectetur culpa velit aliquip aliquip cupidatat eiusmod tempor velit",
@@ -7950,8 +7950,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Voluptate velit anim est aliqua voluptate ullamco cupidatat velit.",
-        "categories": [
+        "footnote": "Voluptate velit anim est aliqua voluptate ullamco cupidatat velit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "cupidatat enim sunt sunt esse pariatur ullamco adipisicing duis irure aliquip consequat consectetur esse ex quis excepteur et pariatur consectetur dolor est sint occaecat eu",
@@ -8077,8 +8077,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Dolore ipsum elit laboris adipisicing consequat dolore elit id dolore sunt minim non.",
-        "categories": [
+        "footnote": "Dolore ipsum elit laboris adipisicing consequat dolore elit id dolore sunt minim non.",
+        "sections": [
           {
             "name": "Entree",
             "description": "fugiat sunt ea ex aute eu ea cillum amet reprehenderit veniam reprehenderit fugiat anim cillum esse enim occaecat officia est non amet veniam exercitation velit",
@@ -8311,8 +8311,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Exercitation ea laborum occaecat eiusmod deserunt anim laborum ut eu.",
-        "categories": [
+        "footnote": "Exercitation ea laborum occaecat eiusmod deserunt anim laborum ut eu.",
+        "sections": [
           {
             "name": "Entree",
             "description": "anim veniam aliqua culpa pariatur enim esse ad id enim dolore quis sint veniam veniam amet occaecat occaecat enim sit voluptate amet sunt velit sunt",
@@ -8446,8 +8446,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Elit eiusmod ut pariatur excepteur ullamco minim.",
-        "categories": [
+        "footnote": "Elit eiusmod ut pariatur excepteur ullamco minim.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ad culpa Lorem officia magna ea deserunt laborum qui do dolore incididunt velit non reprehenderit Lorem et labore Lorem quis anim ea ex et voluptate",
@@ -8685,8 +8685,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Anim ex nisi pariatur laborum do deserunt laboris pariatur ut proident labore.",
-        "categories": [
+        "footnote": "Anim ex nisi pariatur laborum do deserunt laboris pariatur ut proident labore.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "id incididunt veniam ex officia veniam sint et exercitation irure anim tempor veniam commodo enim esse esse officia in esse voluptate consequat dolore enim esse",
@@ -8778,8 +8778,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Deserunt dolor sit deserunt enim anim deserunt nisi ex sit excepteur qui.",
-        "categories": [
+        "footnote": "Deserunt dolor sit deserunt enim anim deserunt nisi ex sit excepteur qui.",
+        "sections": [
           {
             "name": "Bites",
             "description": "amet irure velit dolore aliquip reprehenderit deserunt ullamco cupidatat Lorem sunt nulla esse cillum cillum nostrud sit et irure minim do magna nostrud duis commodo",
@@ -8872,8 +8872,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Aliqua cupidatat proident incididunt est quis exercitation voluptate.",
-        "categories": [
+        "footnote": "Aliqua cupidatat proident incididunt est quis exercitation voluptate.",
+        "sections": [
           {
             "name": "Entree",
             "description": "reprehenderit qui consectetur reprehenderit incididunt et ea elit commodo consequat ipsum voluptate mollit ut velit cupidatat ipsum adipisicing dolore nostrud veniam ad irure amet velit",
@@ -9034,8 +9034,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Voluptate et sunt labore aliqua reprehenderit reprehenderit fugiat pariatur Lorem.",
-        "categories": [
+        "footnote": "Voluptate et sunt labore aliqua reprehenderit reprehenderit fugiat pariatur Lorem.",
+        "sections": [
           {
             "name": "Entree",
             "description": "et id tempor fugiat non ad ex ea dolore culpa anim ipsum nostrud sunt ut occaecat adipisicing in pariatur Lorem exercitation labore eu aute id",
@@ -9275,8 +9275,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Ad sunt tempor ex anim amet officia enim deserunt labore.",
-        "categories": [
+        "footnote": "Ad sunt tempor ex anim amet officia enim deserunt labore.",
+        "sections": [
           {
             "name": "Entree",
             "description": "est qui exercitation commodo sunt ipsum enim aliquip laborum exercitation ullamco laboris nulla proident incididunt laboris officia in minim ea in id adipisicing reprehenderit laboris",
@@ -9507,8 +9507,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Veniam id reprehenderit labore ad incididunt ea Lorem nisi tempor non amet mollit aute.",
-        "categories": [
+        "footnote": "Veniam id reprehenderit labore ad incididunt ea Lorem nisi tempor non amet mollit aute.",
+        "sections": [
           {
             "name": "Entree",
             "description": "reprehenderit sit velit qui exercitation irure in ullamco ad consectetur nostrud ex mollit dolore tempor reprehenderit consectetur laborum ullamco dolor ullamco culpa mollit exercitation enim",
@@ -9600,8 +9600,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Et minim laborum laboris veniam eiusmod laborum aliqua occaecat sint magna nulla et voluptate.",
-        "categories": [
+        "footnote": "Et minim laborum laboris veniam eiusmod laborum aliqua occaecat sint magna nulla et voluptate.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "elit elit pariatur sit magna reprehenderit consectetur magna esse do voluptate velit amet excepteur dolore voluptate in magna officia enim nulla aliqua veniam ut eiusmod",
@@ -9667,8 +9667,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "In dolor aute ullamco pariatur nulla reprehenderit.",
-        "categories": [
+        "footnote": "In dolor aute ullamco pariatur nulla reprehenderit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "qui commodo anim et id pariatur esse dolore consequat pariatur amet tempor et reprehenderit veniam do dolore nostrud in esse irure sunt labore laboris magna",
@@ -9912,8 +9912,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Labore irure Lorem incididunt pariatur do ullamco dolore dolore exercitation laboris laboris.",
-        "categories": [
+        "footnote": "Labore irure Lorem incididunt pariatur do ullamco dolore dolore exercitation laboris laboris.",
+        "sections": [
           {
             "name": "Entree",
             "description": "magna labore incididunt sint aliqua deserunt pariatur do sint aliquip eiusmod pariatur reprehenderit ut aute irure incididunt ad cupidatat tempor id consectetur veniam sint irure",
@@ -10149,8 +10149,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Minim nostrud aute anim qui minim aute exercitation cillum excepteur.",
-        "categories": [
+        "footnote": "Minim nostrud aute anim qui minim aute exercitation cillum excepteur.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "eu veniam incididunt irure magna deserunt labore sit ipsum nostrud deserunt ipsum Lorem sunt eu duis adipisicing elit commodo deserunt anim mollit consequat culpa aliquip",
@@ -10399,8 +10399,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Excepteur enim reprehenderit laborum eu laborum ut id cillum.",
-        "categories": [
+        "footnote": "Excepteur enim reprehenderit laborum eu laborum ut id cillum.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "eu enim tempor incididunt duis dolore ea nulla mollit ullamco non irure laborum eiusmod sunt non veniam Lorem consequat ea quis id et nisi qui",
@@ -10601,8 +10601,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliquip eiusmod aute id id.",
-        "categories": [
+        "footnote": "Aliquip eiusmod aute id id.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ad et sint qui id cupidatat et consequat enim id Lorem occaecat ex eiusmod esse non consequat pariatur eu eiusmod consectetur elit laboris irure qui",
@@ -10893,8 +10893,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Eu mollit laboris Lorem sunt ea esse adipisicing.",
-        "categories": [
+        "footnote": "Eu mollit laboris Lorem sunt ea esse adipisicing.",
+        "sections": [
           {
             "name": "Bites",
             "description": "aute consectetur culpa proident sit id officia consequat consequat eiusmod nostrud culpa fugiat officia dolore dolore voluptate veniam ea pariatur aliquip est Lorem laboris fugiat",
@@ -11042,8 +11042,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Do laboris voluptate irure dolore cupidatat ex nostrud nulla nostrud.",
-        "categories": [
+        "footnote": "Do laboris voluptate irure dolore cupidatat ex nostrud nulla nostrud.",
+        "sections": [
           {
             "name": "Entree",
             "description": "velit aute amet qui consectetur minim ex sit Lorem proident irure ea velit cupidatat non enim dolore et ipsum irure consectetur veniam tempor in laboris",
@@ -11219,8 +11219,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Est aliquip occaecat esse do nulla commodo incididunt voluptate est.",
-        "categories": [
+        "footnote": "Est aliquip occaecat esse do nulla commodo incididunt voluptate est.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "Lorem voluptate pariatur ut nostrud esse cillum pariatur culpa quis est sunt elit incididunt sint sint anim laborum voluptate aliqua veniam nulla non nulla occaecat",
@@ -11484,8 +11484,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Mollit nulla proident labore est eu ullamco.",
-        "categories": [
+        "footnote": "Mollit nulla proident labore est eu ullamco.",
+        "sections": [
           {
             "name": "Entree",
             "description": "nisi dolor ex consequat eiusmod velit culpa aliquip nostrud adipisicing ea irure aliqua reprehenderit aute mollit tempor ipsum consectetur occaecat sint enim officia in proident",
@@ -11623,8 +11623,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Officia quis incididunt veniam velit pariatur laborum et cillum pariatur.",
-        "categories": [
+        "footnote": "Officia quis incididunt veniam velit pariatur laborum et cillum pariatur.",
+        "sections": [
           {
             "name": "Entree",
             "description": "velit laborum sint qui cupidatat dolor magna quis duis sit nulla voluptate pariatur magna non nostrud enim sunt eiusmod adipisicing culpa non do deserunt veniam",
@@ -11723,8 +11723,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Veniam fugiat reprehenderit occaecat excepteur in ut fugiat reprehenderit consectetur ad.",
-        "categories": [
+        "footnote": "Veniam fugiat reprehenderit occaecat excepteur in ut fugiat reprehenderit consectetur ad.",
+        "sections": [
           {
             "name": "Entree",
             "description": "labore qui esse officia consectetur eiusmod elit in officia cupidatat excepteur dolore dolore enim amet et amet aute proident officia excepteur nisi nisi consequat ea",
@@ -12038,8 +12038,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Nisi id ex ut ipsum dolore incididunt tempor elit aliqua exercitation.",
-        "categories": [
+        "footnote": "Nisi id ex ut ipsum dolore incididunt tempor elit aliqua exercitation.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "laborum laboris commodo enim ipsum duis elit occaecat officia duis amet commodo ullamco non qui sit adipisicing nostrud officia occaecat consequat aute enim ut nostrud",
@@ -12269,8 +12269,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Id pariatur fugiat veniam duis dolore excepteur dolore excepteur nulla culpa tempor est amet velit.",
-        "categories": [
+        "footnote": "Id pariatur fugiat veniam duis dolore excepteur dolore excepteur nulla culpa tempor est amet velit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "proident reprehenderit ad mollit magna consectetur nisi culpa aliquip nisi aliquip proident non aute occaecat eiusmod fugiat enim reprehenderit incididunt nostrud culpa sit consequat excepteur",
@@ -12471,8 +12471,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Sunt magna reprehenderit est excepteur magna in culpa amet magna dolor esse.",
-        "categories": [
+        "footnote": "Sunt magna reprehenderit est excepteur magna in culpa amet magna dolor esse.",
+        "sections": [
           {
             "name": "Entree",
             "description": "voluptate aliquip in cupidatat sit veniam fugiat adipisicing eu cillum elit ad exercitation non eu laboris consequat aliquip do id dolor eu amet enim et",
@@ -12672,8 +12672,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Laborum dolor dolor id sit Lorem pariatur commodo aliqua eu id sint.",
-        "categories": [
+        "footnote": "Laborum dolor dolor id sit Lorem pariatur commodo aliqua eu id sint.",
+        "sections": [
           {
             "name": "Entree",
             "description": "eu quis officia sunt consectetur eiusmod fugiat in sint aliqua minim do id occaecat ipsum commodo exercitation eiusmod dolore eu cillum ex aliquip exercitation ex",
@@ -12830,8 +12830,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Sint ut aliqua duis ut labore sint.",
-        "categories": [
+        "footnote": "Sint ut aliqua duis ut labore sint.",
+        "sections": [
           {
             "name": "Bites",
             "description": "amet commodo irure incididunt consequat voluptate cillum fugiat minim nostrud nulla Lorem nisi sit amet eu pariatur labore eu consequat elit nisi sint pariatur quis",
@@ -12935,8 +12935,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Mollit sit dolore cillum non.",
-        "categories": [
+        "footnote": "Mollit sit dolore cillum non.",
+        "sections": [
           {
             "name": "Bites",
             "description": "aute excepteur voluptate aute qui elit incididunt quis dolore minim elit do irure laboris esse nulla duis dolore velit incididunt dolore deserunt velit labore eiusmod",
@@ -13139,8 +13139,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Exercitation minim est dolor excepteur.",
-        "categories": [
+        "footnote": "Exercitation minim est dolor excepteur.",
+        "sections": [
           {
             "name": "Bites",
             "description": "consectetur est elit in ad enim velit Lorem est mollit reprehenderit ullamco sint proident reprehenderit commodo eu veniam enim tempor aliquip nulla esse ipsum quis",
@@ -13362,8 +13362,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Pariatur excepteur dolore deserunt est tempor deserunt pariatur dolore aliquip occaecat laboris minim nostrud cupidatat.",
-        "categories": [
+        "footnote": "Pariatur excepteur dolore deserunt est tempor deserunt pariatur dolore aliquip occaecat laboris minim nostrud cupidatat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "anim ad et veniam tempor ex sit quis nisi elit id dolor nulla tempor id commodo laboris magna irure minim amet ut laborum mollit laborum",
@@ -13565,8 +13565,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliquip voluptate eiusmod commodo sint reprehenderit.",
-        "categories": [
+        "footnote": "Aliquip voluptate eiusmod commodo sint reprehenderit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "anim eu occaecat eu elit ea sint qui commodo anim aute labore ea pariatur labore non laboris sint ad quis occaecat excepteur nisi consequat sint",
@@ -13669,8 +13669,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Nulla consectetur elit aliqua laboris et Lorem non et irure laborum laboris exercitation cupidatat velit.",
-        "categories": [
+        "footnote": "Nulla consectetur elit aliqua laboris et Lorem non et irure laborum laboris exercitation cupidatat velit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ex sint duis eu non ex magna culpa quis enim eiusmod et ut in labore anim laboris dolor fugiat aliquip ut aliqua est non ex",
@@ -13890,8 +13890,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Veniam consectetur non sint tempor deserunt fugiat nisi ut fugiat irure occaecat tempor adipisicing voluptate.",
-        "categories": [
+        "footnote": "Veniam consectetur non sint tempor deserunt fugiat nisi ut fugiat irure occaecat tempor adipisicing voluptate.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sunt cupidatat qui est duis ut nulla magna laboris veniam eu elit amet consectetur ut commodo ex cillum excepteur deserunt est magna in aute occaecat",
@@ -14112,8 +14112,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Sit incididunt commodo consectetur consectetur cillum ut.",
-        "categories": [
+        "footnote": "Sit incididunt commodo consectetur consectetur cillum ut.",
+        "sections": [
           {
             "name": "Entree",
             "description": "do sit ea laborum laboris tempor elit pariatur voluptate duis cupidatat anim anim esse incididunt dolor et mollit enim id dolor veniam aute amet commodo",
@@ -14332,8 +14332,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Nisi non cillum adipisicing consectetur minim minim fugiat sit.",
-        "categories": [
+        "footnote": "Nisi non cillum adipisicing consectetur minim minim fugiat sit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "laborum ex nisi amet deserunt nostrud exercitation pariatur cupidatat est tempor commodo cillum sint velit esse laborum officia eu consequat amet incididunt do est tempor",
@@ -14564,8 +14564,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Eu est amet adipisicing nostrud irure officia.",
-        "categories": [
+        "footnote": "Eu est amet adipisicing nostrud irure officia.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "esse laboris eiusmod aute ad esse consectetur sint deserunt dolore qui deserunt elit est culpa adipisicing proident duis sint occaecat sunt sunt non esse et",
@@ -14816,8 +14816,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Deserunt irure nostrud ut mollit.",
-        "categories": [
+        "footnote": "Deserunt irure nostrud ut mollit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "adipisicing qui sit officia ea voluptate ipsum pariatur magna ut amet deserunt mollit nisi et irure consequat tempor incididunt proident incididunt ipsum adipisicing adipisicing occaecat",
@@ -14978,8 +14978,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Labore excepteur amet irure commodo duis reprehenderit ea et elit adipisicing do nisi.",
-        "categories": [
+        "footnote": "Labore excepteur amet irure commodo duis reprehenderit ea et elit adipisicing do nisi.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ullamco ullamco officia incididunt culpa occaecat ad mollit laborum exercitation excepteur quis velit veniam occaecat amet enim minim pariatur aute consectetur mollit eiusmod proident consequat",
@@ -15222,8 +15222,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Reprehenderit eu elit nulla deserunt deserunt excepteur amet consectetur adipisicing enim.",
-        "categories": [
+        "footnote": "Reprehenderit eu elit nulla deserunt deserunt excepteur amet consectetur adipisicing enim.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "esse veniam mollit proident anim sint labore exercitation minim sit laboris deserunt consequat ullamco aliquip reprehenderit enim aliquip occaecat do aliquip labore exercitation occaecat reprehenderit",
@@ -15319,8 +15319,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Consequat aliqua sit ea aliqua enim cillum exercitation elit amet aliqua nulla.",
-        "categories": [
+        "footnote": "Consequat aliqua sit ea aliqua enim cillum exercitation elit amet aliqua nulla.",
+        "sections": [
           {
             "name": "Bites",
             "description": "deserunt duis est excepteur nostrud mollit nostrud sint sunt tempor sit laboris minim anim velit magna pariatur quis excepteur est in voluptate laboris irure incididunt",
@@ -15419,8 +15419,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ipsum pariatur non fugiat magna do ullamco incididunt eu.",
-        "categories": [
+        "footnote": "Ipsum pariatur non fugiat magna do ullamco incididunt eu.",
+        "sections": [
           {
             "name": "Bites",
             "description": "velit cillum occaecat deserunt culpa commodo elit mollit reprehenderit voluptate esse est eu minim exercitation adipisicing ullamco labore pariatur veniam in proident adipisicing do commodo",
@@ -15659,8 +15659,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Anim mollit cillum enim irure sunt elit anim ea.",
-        "categories": [
+        "footnote": "Anim mollit cillum enim irure sunt elit anim ea.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "est ullamco aliquip dolore culpa labore voluptate aliqua non minim proident veniam veniam deserunt ut et nulla irure consequat laborum officia laboris anim ea esse",
@@ -15765,8 +15765,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Incididunt sit sit est pariatur.",
-        "categories": [
+        "footnote": "Incididunt sit sit est pariatur.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "consequat sunt quis aliqua laboris nostrud Lorem ea Lorem esse anim occaecat mollit fugiat anim eu ut id culpa nostrud ea fugiat duis eu sunt",
@@ -15923,8 +15923,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Labore anim irure labore officia.",
-        "categories": [
+        "footnote": "Labore anim irure labore officia.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "minim veniam non anim ex nulla anim aliqua excepteur ullamco nostrud consequat voluptate reprehenderit culpa proident ipsum tempor amet elit velit esse Lorem commodo aute",
@@ -16090,8 +16090,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Exercitation non esse in aliquip laboris laboris pariatur ipsum.",
-        "categories": [
+        "footnote": "Exercitation non esse in aliquip laboris laboris pariatur ipsum.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "laboris nisi aliquip sunt ullamco est et sit est aliquip officia nostrud mollit mollit amet pariatur do ut non commodo labore esse Lorem officia sit",
@@ -16177,8 +16177,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Cupidatat quis sint incididunt esse eu sit.",
-        "categories": [
+        "footnote": "Cupidatat quis sint incididunt esse eu sit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "irure ea nisi culpa consectetur adipisicing ea minim nostrud in do sit eu ad cillum anim nostrud commodo deserunt tempor esse reprehenderit veniam tempor eu",
@@ -16282,8 +16282,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Nisi excepteur magna deserunt minim exercitation adipisicing amet laborum excepteur.",
-        "categories": [
+        "footnote": "Nisi excepteur magna deserunt minim exercitation adipisicing amet laborum excepteur.",
+        "sections": [
           {
             "name": "Entree",
             "description": "fugiat et eu labore tempor magna est eu aliquip eiusmod deserunt eiusmod voluptate labore veniam ad sit do labore eiusmod fugiat amet occaecat eiusmod laboris",
@@ -16420,8 +16420,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Velit et laborum proident pariatur occaecat excepteur officia id.",
-        "categories": [
+        "footnote": "Velit et laborum proident pariatur occaecat excepteur officia id.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "pariatur eiusmod excepteur occaecat Lorem amet duis sint reprehenderit elit occaecat eiusmod ut sunt anim consequat veniam anim excepteur eiusmod velit quis fugiat proident et",
@@ -16649,8 +16649,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Cillum ex qui anim ea enim cillum ut.",
-        "categories": [
+        "footnote": "Cillum ex qui anim ea enim cillum ut.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "culpa ut consectetur amet qui ut voluptate et irure dolore esse voluptate voluptate occaecat officia laboris minim elit qui do labore veniam magna aliqua in",
@@ -16783,8 +16783,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Sint ad consequat est incididunt.",
-        "categories": [
+        "footnote": "Sint ad consequat est incididunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "in pariatur do ex nisi est aute mollit ad culpa enim proident est Lorem et sit incididunt in quis Lorem ea velit amet velit eu",
@@ -17095,8 +17095,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Excepteur eiusmod irure quis deserunt consectetur do cillum et deserunt quis Lorem exercitation.",
-        "categories": [
+        "footnote": "Excepteur eiusmod irure quis deserunt consectetur do cillum et deserunt quis Lorem exercitation.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "in commodo reprehenderit esse aliquip commodo proident eiusmod Lorem magna tempor amet nisi pariatur enim nisi ea id fugiat amet ea elit est proident Lorem",
@@ -17255,8 +17255,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Aliqua eu consectetur voluptate voluptate ex pariatur nostrud culpa sit amet.",
-        "categories": [
+        "footnote": "Aliqua eu consectetur voluptate voluptate ex pariatur nostrud culpa sit amet.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "dolore aliqua consectetur consectetur cupidatat tempor proident laboris exercitation culpa non enim officia ut consequat est amet ea non ut amet qui amet nulla eiusmod",
@@ -17424,8 +17424,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Velit ullamco occaecat dolore amet esse Lorem incididunt Lorem.",
-        "categories": [
+        "footnote": "Velit ullamco occaecat dolore amet esse Lorem incididunt Lorem.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "Lorem aliquip reprehenderit dolor elit quis elit qui sunt sunt fugiat tempor nulla sint sunt esse incididunt labore labore aliqua eu pariatur culpa exercitation nisi",
@@ -17620,8 +17620,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Minim veniam consequat est et et nostrud commodo ex minim dolore.",
-        "categories": [
+        "footnote": "Minim veniam consequat est et et nostrud commodo ex minim dolore.",
+        "sections": [
           {
             "name": "Bites",
             "description": "minim laborum aute consequat cillum nisi in laborum laboris minim magna velit sint in adipisicing ad id nostrud ea quis voluptate nulla proident aliqua consequat",
@@ -17900,8 +17900,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Fugiat in tempor ea ullamco tempor qui aute.",
-        "categories": [
+        "footnote": "Fugiat in tempor ea ullamco tempor qui aute.",
+        "sections": [
           {
             "name": "Entree",
             "description": "est aliqua culpa laboris minim eu pariatur labore veniam reprehenderit non laborum labore Lorem ad do irure veniam aliquip nostrud in commodo laborum voluptate anim",
@@ -17997,8 +17997,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Mollit dolor quis ipsum commodo fugiat id anim.",
-        "categories": [
+        "footnote": "Mollit dolor quis ipsum commodo fugiat id anim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "culpa fugiat quis laboris occaecat enim excepteur cupidatat ipsum ipsum do nisi eu veniam fugiat mollit laboris eu enim aliqua in laboris consequat officia commodo",
@@ -18132,8 +18132,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Tempor commodo esse ut laboris ullamco commodo elit.",
-        "categories": [
+        "footnote": "Tempor commodo esse ut laboris ullamco commodo elit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "nulla qui aliquip id commodo ullamco proident reprehenderit id laboris occaecat ipsum duis dolor proident veniam irure non occaecat culpa excepteur laboris culpa aliqua ad",
@@ -18225,8 +18225,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Labore occaecat dolore reprehenderit sit deserunt pariatur dolor excepteur adipisicing.",
-        "categories": [
+        "footnote": "Labore occaecat dolore reprehenderit sit deserunt pariatur dolor excepteur adipisicing.",
+        "sections": [
           {
             "name": "Bites",
             "description": "qui ut incididunt dolore pariatur ex culpa esse eu tempor et duis non officia veniam Lorem enim cupidatat commodo officia duis laborum cillum nostrud dolor",
@@ -18504,8 +18504,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Cupidatat laboris ea esse aliqua fugiat incididunt nulla excepteur reprehenderit laborum exercitation officia.",
-        "categories": [
+        "footnote": "Cupidatat laboris ea esse aliqua fugiat incididunt nulla excepteur reprehenderit laborum exercitation officia.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "et et culpa enim adipisicing est ad in adipisicing id labore aliquip tempor fugiat nulla sint nisi duis magna incididunt ullamco tempor deserunt dolore fugiat",
@@ -18566,8 +18566,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Elit cupidatat aliquip ad irure ex dolor aliquip ipsum.",
-        "categories": [
+        "footnote": "Elit cupidatat aliquip ad irure ex dolor aliquip ipsum.",
+        "sections": [
           {
             "name": "Entree",
             "description": "laborum dolore minim voluptate et enim labore in Lorem ullamco enim nulla ullamco irure in cupidatat veniam non aute ad aliquip pariatur duis in culpa",
@@ -18707,8 +18707,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Sit cillum in do nulla sit dolore commodo aliquip tempor exercitation.",
-        "categories": [
+        "footnote": "Sit cillum in do nulla sit dolore commodo aliquip tempor exercitation.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ex nostrud eiusmod aute in culpa in labore do ea est veniam labore voluptate est reprehenderit quis quis enim eu commodo Lorem minim sit veniam",
@@ -18804,8 +18804,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Sunt commodo eiusmod ullamco in enim labore eu minim occaecat laborum anim Lorem exercitation esse.",
-        "categories": [
+        "footnote": "Sunt commodo eiusmod ullamco in enim labore eu minim occaecat laborum anim Lorem exercitation esse.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "cillum in aliqua exercitation et tempor eiusmod sit ut voluptate sint cillum id ut et eiusmod nulla est in sint adipisicing eu sint duis adipisicing",
@@ -18968,8 +18968,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aute aliqua aliqua veniam occaecat.",
-        "categories": [
+        "footnote": "Aute aliqua aliqua veniam occaecat.",
+        "sections": [
           {
             "name": "Bites",
             "description": "aliquip sint do et non culpa Lorem anim irure do ut in anim sint sint aliqua commodo officia id dolor voluptate ea nisi magna dolor",
@@ -19060,8 +19060,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Id ipsum mollit consequat elit qui.",
-        "categories": [
+        "footnote": "Id ipsum mollit consequat elit qui.",
+        "sections": [
           {
             "name": "Bites",
             "description": "magna elit eiusmod commodo in velit pariatur eiusmod labore adipisicing exercitation laborum ut incididunt aliquip Lorem Lorem nulla eiusmod deserunt ut est ut commodo cillum",
@@ -19194,8 +19194,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Fugiat fugiat exercitation adipisicing sunt voluptate culpa excepteur.",
-        "categories": [
+        "footnote": "Fugiat fugiat exercitation adipisicing sunt voluptate culpa excepteur.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "non cillum aliquip exercitation fugiat qui aute ad sint ullamco ea labore eiusmod commodo eiusmod aliqua incididunt ea enim proident cillum Lorem in mollit consequat",
@@ -19255,8 +19255,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Pariatur enim aliqua nulla id ad non eiusmod proident.",
-        "categories": [
+        "footnote": "Pariatur enim aliqua nulla id ad non eiusmod proident.",
+        "sections": [
           {
             "name": "Entree",
             "description": "fugiat exercitation exercitation culpa exercitation aute in enim voluptate consectetur irure nulla cupidatat elit ipsum amet cupidatat nisi incididunt Lorem cupidatat laboris minim consequat mollit",
@@ -19564,8 +19564,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Consequat velit velit voluptate sint.",
-        "categories": [
+        "footnote": "Consequat velit velit voluptate sint.",
+        "sections": [
           {
             "name": "Entree",
             "description": "minim consequat sit magna elit ex reprehenderit laborum ex velit esse aute elit cillum ea cillum pariatur Lorem elit deserunt sunt irure officia exercitation aute",
@@ -19901,8 +19901,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Cillum dolore magna non sint.",
-        "categories": [
+        "footnote": "Cillum dolore magna non sint.",
+        "sections": [
           {
             "name": "Bites",
             "description": "anim incididunt mollit pariatur ipsum consectetur consequat sunt elit dolor aliqua dolore magna elit excepteur veniam ad aliqua fugiat labore in amet magna aliqua mollit",
@@ -20120,8 +20120,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Velit ut ea et velit.",
-        "categories": [
+        "footnote": "Velit ut ea et velit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "occaecat tempor ad dolor labore esse in enim cupidatat duis est velit amet sit incididunt enim amet ad voluptate aliquip culpa anim voluptate et dolore",
@@ -20230,8 +20230,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Quis nulla non pariatur cillum ex nulla incididunt ipsum enim est proident amet anim.",
-        "categories": [
+        "footnote": "Quis nulla non pariatur cillum ex nulla incididunt ipsum enim est proident amet anim.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "qui duis do anim reprehenderit dolore et dolore irure reprehenderit laboris Lorem non adipisicing proident veniam reprehenderit sit aute sint proident in ea reprehenderit commodo",
@@ -20313,8 +20313,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Officia excepteur ut pariatur enim duis adipisicing consectetur eiusmod.",
-        "categories": [
+        "footnote": "Officia excepteur ut pariatur enim duis adipisicing consectetur eiusmod.",
+        "sections": [
           {
             "name": "Bites",
             "description": "esse velit aliqua tempor non elit excepteur cillum amet id dolore excepteur proident in dolore consectetur reprehenderit occaecat labore cupidatat sint incididunt enim voluptate id",
@@ -20449,8 +20449,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Commodo laborum cupidatat id pariatur ex non esse cupidatat proident in.",
-        "categories": [
+        "footnote": "Commodo laborum cupidatat id pariatur ex non esse cupidatat proident in.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "culpa aliquip qui duis id ipsum mollit excepteur id qui nulla anim ex qui elit commodo laborum deserunt sunt voluptate tempor ad non id eiusmod",
@@ -20640,8 +20640,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Aliqua laborum pariatur adipisicing labore anim commodo reprehenderit pariatur eiusmod.",
-        "categories": [
+        "footnote": "Aliqua laborum pariatur adipisicing labore anim commodo reprehenderit pariatur eiusmod.",
+        "sections": [
           {
             "name": "Entree",
             "description": "quis pariatur exercitation incididunt commodo nulla aute ad fugiat proident magna culpa mollit do tempor aliqua ut ea qui commodo commodo officia voluptate aliquip nostrud",
@@ -20713,8 +20713,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Laboris quis ipsum est culpa dolor reprehenderit eiusmod nulla.",
-        "categories": [
+        "footnote": "Laboris quis ipsum est culpa dolor reprehenderit eiusmod nulla.",
+        "sections": [
           {
             "name": "Entree",
             "description": "irure ut id quis sit aliquip excepteur elit cillum Lorem tempor sit dolore exercitation ad dolor ad commodo dolore ipsum aute sunt sunt veniam ut",
@@ -20891,8 +20891,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Ut ullamco occaecat voluptate ea consequat ullamco mollit.",
-        "categories": [
+        "footnote": "Ut ullamco occaecat voluptate ea consequat ullamco mollit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "consequat dolor adipisicing labore officia officia aute nisi proident pariatur sit sint Lorem et cillum minim nostrud irure minim adipisicing officia ut eu quis deserunt",
@@ -21033,8 +21033,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Sit do id aliqua tempor deserunt eu reprehenderit.",
-        "categories": [
+        "footnote": "Sit do id aliqua tempor deserunt eu reprehenderit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "aute et adipisicing deserunt esse veniam sunt non id aliquip cupidatat ullamco est elit nulla nulla officia ex adipisicing est exercitation nulla proident officia anim",
@@ -21258,8 +21258,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Magna ad ullamco non cillum ea officia voluptate amet deserunt Lorem enim id deserunt elit.",
-        "categories": [
+        "footnote": "Magna ad ullamco non cillum ea officia voluptate amet deserunt Lorem enim id deserunt elit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ex ut esse consectetur veniam laborum veniam reprehenderit amet veniam dolore ad mollit qui dolor duis commodo elit nisi ex dolore nulla mollit proident ex",
@@ -21338,8 +21338,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Id elit fugiat consequat in cillum esse laborum sunt ea nostrud.",
-        "categories": [
+        "footnote": "Id elit fugiat consequat in cillum esse laborum sunt ea nostrud.",
+        "sections": [
           {
             "name": "Bites",
             "description": "voluptate velit proident nostrud duis Lorem et duis exercitation do et dolor fugiat nostrud mollit laboris ut cupidatat nostrud minim nostrud eu ipsum exercitation aliqua",
@@ -21541,8 +21541,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Commodo eu labore nostrud duis adipisicing enim aliqua occaecat nostrud voluptate ea.",
-        "categories": [
+        "footnote": "Commodo eu labore nostrud duis adipisicing enim aliqua occaecat nostrud voluptate ea.",
+        "sections": [
           {
             "name": "Entree",
             "description": "aute veniam duis et adipisicing culpa veniam dolore dolore et est sit laborum dolor aliqua nulla ut sunt proident do amet ad nulla nulla cillum",
@@ -21647,8 +21647,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Do officia ad nisi in sit ad culpa commodo incididunt veniam ipsum mollit ut.",
-        "categories": [
+        "footnote": "Do officia ad nisi in sit ad culpa commodo incididunt veniam ipsum mollit ut.",
+        "sections": [
           {
             "name": "Entree",
             "description": "amet est duis incididunt id dolor anim ut nostrud magna ex nulla veniam nulla id officia irure eiusmod enim ullamco sunt et duis laborum culpa",
@@ -21864,8 +21864,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Consectetur id ex consequat labore commodo et laboris consequat ea sit.",
-        "categories": [
+        "footnote": "Consectetur id ex consequat labore commodo et laboris consequat ea sit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "dolore ipsum deserunt non mollit irure ea anim magna proident aliqua aliquip aute dolore sint ipsum voluptate sit voluptate cillum occaecat sunt et do incididunt",
@@ -21987,8 +21987,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ipsum voluptate elit ut labore proident do adipisicing irure velit velit anim.",
-        "categories": [
+        "footnote": "Ipsum voluptate elit ut labore proident do adipisicing irure velit velit anim.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "non in cupidatat eiusmod nulla quis ullamco labore sit tempor adipisicing adipisicing sunt voluptate est aliqua fugiat reprehenderit voluptate sit aute ut non elit incididunt",
@@ -22156,8 +22156,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Dolore commodo dolor sint pariatur.",
-        "categories": [
+        "footnote": "Dolore commodo dolor sint pariatur.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "anim et fugiat anim veniam labore dolor proident et eu tempor esse consequat ullamco quis duis ex sit amet commodo aliqua mollit ea cupidatat voluptate",
@@ -22230,8 +22230,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Ipsum quis proident sit nostrud enim qui pariatur culpa consectetur.",
-        "categories": [
+        "footnote": "Ipsum quis proident sit nostrud enim qui pariatur culpa consectetur.",
+        "sections": [
           {
             "name": "Entree",
             "description": "eiusmod cillum enim enim excepteur nulla occaecat labore laborum elit qui quis nisi adipisicing consectetur mollit ad exercitation culpa ad ullamco voluptate ut ad excepteur",
@@ -22300,8 +22300,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Deserunt commodo reprehenderit in velit duis incididunt duis labore.",
-        "categories": [
+        "footnote": "Deserunt commodo reprehenderit in velit duis incididunt duis labore.",
+        "sections": [
           {
             "name": "Entree",
             "description": "magna dolor do exercitation velit reprehenderit in deserunt nostrud enim culpa enim in commodo aliquip elit qui ullamco ut nostrud adipisicing excepteur laboris veniam excepteur",
@@ -22464,8 +22464,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Ipsum dolor cupidatat nulla id reprehenderit nostrud.",
-        "categories": [
+        "footnote": "Ipsum dolor cupidatat nulla id reprehenderit nostrud.",
+        "sections": [
           {
             "name": "Bites",
             "description": "fugiat anim dolor pariatur veniam fugiat elit pariatur incididunt duis eu do mollit aliquip enim ut do minim nostrud minim minim eu aliquip cillum quis",
@@ -22638,8 +22638,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Dolore non reprehenderit pariatur duis anim commodo deserunt duis dolor.",
-        "categories": [
+        "footnote": "Dolore non reprehenderit pariatur duis anim commodo deserunt duis dolor.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "culpa ipsum Lorem anim elit nulla culpa in deserunt amet reprehenderit adipisicing id eiusmod do occaecat velit proident consequat id duis minim quis dolore culpa",
@@ -22756,8 +22756,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Enim veniam cupidatat irure excepteur elit commodo culpa.",
-        "categories": [
+        "footnote": "Enim veniam cupidatat irure excepteur elit commodo culpa.",
+        "sections": [
           {
             "name": "Entree",
             "description": "id et ea irure exercitation velit consequat nisi fugiat cupidatat nulla consectetur ullamco voluptate labore enim culpa qui fugiat do officia eiusmod aliqua magna dolore",
@@ -22959,8 +22959,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Cupidatat aliquip aliquip commodo velit mollit eu culpa deserunt magna pariatur proident.",
-        "categories": [
+        "footnote": "Cupidatat aliquip aliquip commodo velit mollit eu culpa deserunt magna pariatur proident.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "nostrud aliqua adipisicing nulla aliqua dolor exercitation sunt non irure excepteur tempor fugiat proident irure exercitation dolor enim sunt nisi esse aliquip aliquip culpa in",
@@ -23157,8 +23157,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Officia duis reprehenderit sint enim velit reprehenderit veniam est id minim do est reprehenderit.",
-        "categories": [
+        "footnote": "Officia duis reprehenderit sint enim velit reprehenderit veniam est id minim do est reprehenderit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "incididunt exercitation ut voluptate exercitation sint exercitation ad eiusmod aliquip amet esse quis laboris do pariatur quis in reprehenderit cillum nisi sunt sunt laboris Lorem",
@@ -23421,8 +23421,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Elit ipsum veniam culpa sunt aute eu pariatur.",
-        "categories": [
+        "footnote": "Elit ipsum veniam culpa sunt aute eu pariatur.",
+        "sections": [
           {
             "name": "Entree",
             "description": "minim anim eiusmod id irure mollit minim exercitation do nostrud qui mollit eu mollit aute in est ullamco pariatur cillum labore eiusmod ea occaecat laboris",
@@ -23496,8 +23496,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "In enim irure ipsum magna labore aliquip non ex adipisicing pariatur veniam do tempor.",
-        "categories": [
+        "footnote": "In enim irure ipsum magna labore aliquip non ex adipisicing pariatur veniam do tempor.",
+        "sections": [
           {
             "name": "Entree",
             "description": "laboris ea cupidatat dolore aliquip ut minim pariatur sint sit anim laborum ex ea culpa amet ipsum commodo duis aliqua cupidatat minim velit tempor commodo",
@@ -23631,8 +23631,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Tempor ea anim ut elit quis esse consectetur ut ullamco ad quis laborum.",
-        "categories": [
+        "footnote": "Tempor ea anim ut elit quis esse consectetur ut ullamco ad quis laborum.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "est veniam ea cillum veniam anim quis esse tempor eu minim consectetur quis aliqua qui occaecat nisi in voluptate incididunt irure ex magna sit aliquip",
@@ -23877,8 +23877,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Fugiat exercitation voluptate aliquip nostrud adipisicing anim et.",
-        "categories": [
+        "footnote": "Fugiat exercitation voluptate aliquip nostrud adipisicing anim et.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ex labore ut laborum excepteur ea dolor sint mollit cillum ullamco non consectetur aliqua laboris incididunt veniam eu aute magna enim non duis ea velit",
@@ -23993,8 +23993,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Incididunt sit dolore velit consequat sit ad sunt velit velit.",
-        "categories": [
+        "footnote": "Incididunt sit dolore velit consequat sit ad sunt velit velit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "quis consequat veniam ipsum exercitation reprehenderit pariatur occaecat elit eu veniam ullamco qui exercitation officia anim tempor deserunt officia magna mollit ad nulla non qui",
@@ -24189,8 +24189,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Commodo eu adipisicing id quis ad aliqua enim aute laborum dolor ipsum dolore culpa sunt.",
-        "categories": [
+        "footnote": "Commodo eu adipisicing id quis ad aliqua enim aute laborum dolor ipsum dolore culpa sunt.",
+        "sections": [
           {
             "name": "Entree",
             "description": "deserunt exercitation duis tempor anim dolore exercitation eiusmod mollit pariatur aute nisi sunt tempor id adipisicing anim reprehenderit do sit fugiat esse pariatur sunt laborum",
@@ -24284,8 +24284,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Tempor nostrud irure labore voluptate ea.",
-        "categories": [
+        "footnote": "Tempor nostrud irure labore voluptate ea.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "magna ut labore occaecat elit qui sint adipisicing in sint non ex culpa elit exercitation anim ullamco laborum magna nisi enim magna aliquip Lorem culpa",
@@ -24529,8 +24529,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Dolor sit velit aliquip adipisicing est in occaecat velit in et adipisicing occaecat.",
-        "categories": [
+        "footnote": "Dolor sit velit aliquip adipisicing est in occaecat velit in et adipisicing occaecat.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "velit ad consequat et reprehenderit sint id anim laboris aute dolor do tempor est minim qui consectetur quis in culpa in deserunt aute aliqua culpa",
@@ -24610,8 +24610,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Pariatur ex reprehenderit tempor est non duis laborum.",
-        "categories": [
+        "footnote": "Pariatur ex reprehenderit tempor est non duis laborum.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ut non ullamco adipisicing laborum enim cillum adipisicing eiusmod ut aliqua anim anim dolore tempor in eiusmod quis labore velit veniam nisi officia et enim",
@@ -24671,8 +24671,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Occaecat nulla ut eiusmod quis ipsum excepteur officia amet aute amet exercitation.",
-        "categories": [
+        "footnote": "Occaecat nulla ut eiusmod quis ipsum excepteur officia amet aute amet exercitation.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ad culpa consectetur sint labore nisi deserunt anim sint consectetur commodo ut incididunt aliquip velit nostrud minim magna ex esse magna reprehenderit excepteur fugiat minim",
@@ -24846,8 +24846,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Laborum laborum amet eu incididunt adipisicing.",
-        "categories": [
+        "footnote": "Laborum laborum amet eu incididunt adipisicing.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ut nostrud tempor cupidatat anim laborum in quis tempor dolor sunt sint do occaecat excepteur duis esse adipisicing nulla esse quis et occaecat aute minim",
@@ -24977,8 +24977,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Esse nisi laboris dolor incididunt.",
-        "categories": [
+        "footnote": "Esse nisi laboris dolor incididunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ex pariatur voluptate quis nisi tempor anim id id ut laboris do Lorem ipsum est ipsum laboris fugiat proident amet sunt velit magna voluptate officia",
@@ -25118,8 +25118,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Eiusmod sit cillum tempor reprehenderit occaecat labore.",
-        "categories": [
+        "footnote": "Eiusmod sit cillum tempor reprehenderit occaecat labore.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ut consequat mollit eu id sint reprehenderit quis aute dolore enim dolor pariatur consectetur cillum occaecat id eu incididunt ut officia sunt dolore exercitation deserunt",
@@ -25292,8 +25292,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ex laboris officia deserunt nisi elit in eiusmod fugiat enim eiusmod.",
-        "categories": [
+        "footnote": "Ex laboris officia deserunt nisi elit in eiusmod fugiat enim eiusmod.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "occaecat velit adipisicing irure proident sunt aute exercitation ea cupidatat aliqua aliqua deserunt ipsum laboris excepteur pariatur ad Lorem ex laboris eiusmod ullamco eu eiusmod",
@@ -25398,8 +25398,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Est dolor tempor amet irure laboris aliqua consectetur non aute duis laborum.",
-        "categories": [
+        "footnote": "Est dolor tempor amet irure laboris aliqua consectetur non aute duis laborum.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "nulla dolor enim Lorem dolor nostrud qui cupidatat pariatur veniam sint dolore sunt labore elit ea fugiat aliqua ad nulla fugiat pariatur eiusmod adipisicing nulla",
@@ -25605,8 +25605,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Culpa in velit aliquip ullamco consequat officia excepteur ullamco id ut adipisicing.",
-        "categories": [
+        "footnote": "Culpa in velit aliquip ullamco consequat officia excepteur ullamco id ut adipisicing.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laboris est eiusmod velit ea cillum in occaecat velit anim esse adipisicing laborum ad voluptate fugiat deserunt laboris esse cupidatat duis deserunt ullamco culpa magna",
@@ -25725,8 +25725,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Anim occaecat ut magna ipsum esse non Lorem Lorem eu fugiat.",
-        "categories": [
+        "footnote": "Anim occaecat ut magna ipsum esse non Lorem Lorem eu fugiat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "aliqua sit id cillum duis occaecat ea laborum mollit culpa elit dolor velit adipisicing cupidatat anim nostrud ipsum laboris magna sit ullamco deserunt adipisicing do",
@@ -25919,8 +25919,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Fugiat ipsum proident irure qui anim in velit qui exercitation eu non laborum officia.",
-        "categories": [
+        "footnote": "Fugiat ipsum proident irure qui anim in velit qui exercitation eu non laborum officia.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "amet pariatur consectetur aliqua laboris qui tempor excepteur id exercitation fugiat dolor labore velit qui irure aute consectetur in aute ut minim labore mollit ex",
@@ -26068,8 +26068,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Tempor non deserunt do cupidatat eiusmod est aute dolor irure excepteur veniam proident ullamco.",
-        "categories": [
+        "footnote": "Tempor non deserunt do cupidatat eiusmod est aute dolor irure excepteur veniam proident ullamco.",
+        "sections": [
           {
             "name": "Entree",
             "description": "nulla id magna eiusmod veniam eu culpa labore do nisi proident dolore pariatur aliquip sunt tempor pariatur ullamco anim mollit quis nisi fugiat proident eu",
@@ -26244,8 +26244,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Labore pariatur nulla dolore sint irure.",
-        "categories": [
+        "footnote": "Labore pariatur nulla dolore sint irure.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "cillum ad sint non laboris cupidatat officia veniam qui quis fugiat non est cupidatat nostrud proident ipsum sunt officia duis ad enim excepteur elit sint",
@@ -26499,8 +26499,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Nostrud ullamco ipsum occaecat reprehenderit.",
-        "categories": [
+        "footnote": "Nostrud ullamco ipsum occaecat reprehenderit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "magna sit laboris sit aliqua dolor eiusmod id qui velit sunt quis fugiat exercitation cillum enim mollit irure elit sunt proident minim cillum Lorem minim",
@@ -26721,8 +26721,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Ex proident labore anim dolore proident veniam officia deserunt.",
-        "categories": [
+        "footnote": "Ex proident labore anim dolore proident veniam officia deserunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "magna nulla excepteur adipisicing culpa incididunt qui veniam tempor aute aute anim eiusmod et eu ea cupidatat pariatur eiusmod veniam deserunt velit labore commodo duis",
@@ -26850,8 +26850,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Labore nostrud adipisicing adipisicing tempor commodo cupidatat irure est sunt.",
-        "categories": [
+        "footnote": "Labore nostrud adipisicing adipisicing tempor commodo cupidatat irure est sunt.",
+        "sections": [
           {
             "name": "Entree",
             "description": "aliquip non ea ea eu veniam sunt esse esse do nulla ex Lorem sint aliquip eu laborum enim consequat amet cillum eu duis dolor exercitation",
@@ -27046,8 +27046,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Anim do nisi qui culpa dolore ad proident anim exercitation occaecat proident.",
-        "categories": [
+        "footnote": "Anim do nisi qui culpa dolore ad proident anim exercitation occaecat proident.",
+        "sections": [
           {
             "name": "Bites",
             "description": "minim nulla officia reprehenderit est veniam excepteur ex ad mollit ipsum veniam ut nisi velit sit exercitation id sint sint fugiat labore proident duis tempor",
@@ -27216,8 +27216,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Cupidatat do consectetur consequat laboris tempor et ex nisi ullamco cupidatat non ex nulla magna.",
-        "categories": [
+        "footnote": "Cupidatat do consectetur consequat laboris tempor et ex nisi ullamco cupidatat non ex nulla magna.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "dolor laboris dolore cillum labore enim ipsum tempor cupidatat reprehenderit irure nostrud sit exercitation exercitation aute excepteur ipsum qui est id aliquip eiusmod sunt aute",
@@ -27369,8 +27369,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Laboris ut duis nisi sint occaecat sint fugiat sint ut dolore deserunt consectetur magna consequat.",
-        "categories": [
+        "footnote": "Laboris ut duis nisi sint occaecat sint fugiat sint ut dolore deserunt consectetur magna consequat.",
+        "sections": [
           {
             "name": "Entree",
             "description": "qui est commodo exercitation proident laborum pariatur Lorem proident dolore do ex eiusmod qui magna dolore consequat dolor cillum proident magna sit anim sint nostrud",
@@ -27535,8 +27535,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Anim aliquip cupidatat exercitation aliqua sunt est aliquip duis sint fugiat cupidatat.",
-        "categories": [
+        "footnote": "Anim aliquip cupidatat exercitation aliqua sunt est aliquip duis sint fugiat cupidatat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "aute ullamco mollit cupidatat nostrud laborum pariatur sunt adipisicing qui cillum velit ex irure esse in elit fugiat sunt sunt ut dolor exercitation incididunt anim",
@@ -27593,8 +27593,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Laboris est enim magna est pariatur.",
-        "categories": [
+        "footnote": "Laboris est enim magna est pariatur.",
+        "sections": [
           {
             "name": "Bites",
             "description": "adipisicing nisi reprehenderit minim excepteur eu cillum eiusmod elit deserunt officia fugiat pariatur exercitation pariatur duis adipisicing mollit tempor sint consequat incididunt elit nulla aliquip",
@@ -27728,8 +27728,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Fugiat occaecat amet est dolor enim sint commodo consequat.",
-        "categories": [
+        "footnote": "Fugiat occaecat amet est dolor enim sint commodo consequat.",
+        "sections": [
           {
             "name": "Bites",
             "description": "id occaecat elit pariatur consectetur voluptate adipisicing voluptate ut ea laborum quis id elit in culpa dolore do nisi laborum eiusmod Lorem cillum ullamco ea",
@@ -27893,8 +27893,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Cupidatat magna voluptate anim irure id cupidatat eiusmod aliquip.",
-        "categories": [
+        "footnote": "Cupidatat magna voluptate anim irure id cupidatat eiusmod aliquip.",
+        "sections": [
           {
             "name": "Entree",
             "description": "fugiat eu tempor amet laborum commodo incididunt non tempor cillum sit fugiat incididunt nostrud cupidatat aute ad ad laborum id dolor veniam non sit tempor",
@@ -28104,8 +28104,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Velit anim deserunt nisi aute adipisicing excepteur cupidatat elit dolor ullamco nulla tempor ad nulla.",
-        "categories": [
+        "footnote": "Velit anim deserunt nisi aute adipisicing excepteur cupidatat elit dolor ullamco nulla tempor ad nulla.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "irure ex ullamco magna enim nisi elit sunt non tempor Lorem minim dolor in dolor velit ad nulla ex quis duis Lorem sit voluptate nulla",
@@ -28207,8 +28207,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Eiusmod incididunt velit exercitation adipisicing ut aliquip culpa do sint.",
-        "categories": [
+        "footnote": "Eiusmod incididunt velit exercitation adipisicing ut aliquip culpa do sint.",
+        "sections": [
           {
             "name": "Bites",
             "description": "dolore elit ut anim id exercitation amet veniam do reprehenderit veniam veniam elit eu id incididunt fugiat laboris dolore ea ipsum labore ut amet tempor",
@@ -28424,8 +28424,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Ut ex cillum labore occaecat commodo aute velit laboris ipsum aute sit minim ut dolor.",
-        "categories": [
+        "footnote": "Ut ex cillum labore occaecat commodo aute velit laboris ipsum aute sit minim ut dolor.",
+        "sections": [
           {
             "name": "Bites",
             "description": "excepteur reprehenderit labore nulla culpa labore ipsum cillum velit dolor reprehenderit minim est officia cupidatat incididunt officia cillum sunt duis cillum quis dolore id fugiat",
@@ -28559,8 +28559,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Magna elit eiusmod excepteur incididunt adipisicing.",
-        "categories": [
+        "footnote": "Magna elit eiusmod excepteur incididunt adipisicing.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "aliquip pariatur labore eu incididunt aliquip ea elit sint culpa culpa ex enim commodo mollit pariatur in sunt sint aliqua elit eu qui consequat tempor",
@@ -28658,8 +28658,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Et non officia veniam occaecat mollit aliqua fugiat quis do velit.",
-        "categories": [
+        "footnote": "Et non officia veniam occaecat mollit aliqua fugiat quis do velit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "irure in non ipsum non do adipisicing esse laboris occaecat id ullamco aute dolor sunt ullamco ad occaecat sit Lorem ad id enim ad dolore",
@@ -28905,8 +28905,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Ut Lorem reprehenderit sunt dolor esse ullamco ipsum deserunt veniam mollit voluptate consequat voluptate dolor.",
-        "categories": [
+        "footnote": "Ut Lorem reprehenderit sunt dolor esse ullamco ipsum deserunt veniam mollit voluptate consequat voluptate dolor.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laborum laboris incididunt eiusmod est ad non elit Lorem duis duis est dolore duis ipsum amet excepteur anim laboris adipisicing proident dolore non deserunt occaecat",
@@ -28979,8 +28979,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Nostrud reprehenderit sint incididunt officia dolor voluptate enim pariatur officia consequat.",
-        "categories": [
+        "footnote": "Nostrud reprehenderit sint incididunt officia dolor voluptate enim pariatur officia consequat.",
+        "sections": [
           {
             "name": "Entree",
             "description": "commodo non esse enim duis ex fugiat reprehenderit tempor sunt velit consectetur exercitation anim nulla amet enim consectetur esse excepteur laboris elit in velit nostrud",
@@ -29094,8 +29094,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Minim sit dolore voluptate est culpa commodo non.",
-        "categories": [
+        "footnote": "Minim sit dolore voluptate est culpa commodo non.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "labore dolore in duis id ad dolor in laboris velit eiusmod anim minim voluptate ullamco Lorem pariatur culpa anim ad do aliquip qui tempor ea",
@@ -29259,8 +29259,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Do cillum aliqua et adipisicing ad Lorem.",
-        "categories": [
+        "footnote": "Do cillum aliqua et adipisicing ad Lorem.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "proident labore aute mollit nulla veniam culpa consectetur velit ullamco esse sit pariatur aliquip reprehenderit deserunt est et sunt minim excepteur aliquip est laboris laborum",
@@ -29427,8 +29427,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Esse reprehenderit exercitation aliquip occaecat elit ut aliqua est.",
-        "categories": [
+        "footnote": "Esse reprehenderit exercitation aliquip occaecat elit ut aliqua est.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "et Lorem est laborum aliquip excepteur ad id non aute consectetur eiusmod sint irure et eu fugiat enim sunt ex commodo eiusmod reprehenderit eiusmod officia",
@@ -29530,8 +29530,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Ea reprehenderit dolore elit labore non consectetur mollit reprehenderit ea non dolor aute.",
-        "categories": [
+        "footnote": "Ea reprehenderit dolore elit labore non consectetur mollit reprehenderit ea non dolor aute.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "quis minim sit anim et do duis ut do ad elit deserunt excepteur id irure labore cupidatat pariatur commodo ea id in consequat nisi veniam",
@@ -29732,8 +29732,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Sint aliqua excepteur culpa id sint.",
-        "categories": [
+        "footnote": "Sint aliqua excepteur culpa id sint.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ea aute sunt esse dolore proident dolor nisi anim nisi Lorem ex et ullamco anim sit adipisicing exercitation consequat sunt Lorem laborum nisi cillum ut",
@@ -29956,8 +29956,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Reprehenderit anim do ipsum commodo mollit occaecat est tempor ipsum cillum officia cupidatat.",
-        "categories": [
+        "footnote": "Reprehenderit anim do ipsum commodo mollit occaecat est tempor ipsum cillum officia cupidatat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "duis esse exercitation id fugiat proident ullamco velit elit consectetur nulla amet sit nulla excepteur nulla laborum enim deserunt et veniam proident quis enim consequat",
@@ -30207,8 +30207,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Reprehenderit adipisicing esse tempor qui cupidatat.",
-        "categories": [
+        "footnote": "Reprehenderit adipisicing esse tempor qui cupidatat.",
+        "sections": [
           {
             "name": "Bites",
             "description": "veniam laboris ea excepteur laborum Lorem officia aliquip veniam velit reprehenderit consectetur dolore voluptate sit laborum aliquip adipisicing id eiusmod in id aute labore ea",
@@ -30350,8 +30350,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Enim occaecat officia est Lorem qui in duis reprehenderit est ea.",
-        "categories": [
+        "footnote": "Enim occaecat officia est Lorem qui in duis reprehenderit est ea.",
+        "sections": [
           {
             "name": "Bites",
             "description": "nisi minim deserunt enim incididunt duis est reprehenderit aute qui magna dolor eiusmod laborum qui excepteur fugiat anim incididunt proident Lorem cupidatat adipisicing aute irure",
@@ -30519,8 +30519,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Esse excepteur aute commodo aliqua laborum cupidatat nulla minim nostrud eu.",
-        "categories": [
+        "footnote": "Esse excepteur aute commodo aliqua laborum cupidatat nulla minim nostrud eu.",
+        "sections": [
           {
             "name": "Bites",
             "description": "nisi Lorem incididunt irure elit ut commodo voluptate adipisicing aute aute magna adipisicing pariatur proident cillum duis tempor et incididunt adipisicing sint nisi deserunt fugiat",
@@ -30774,8 +30774,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Reprehenderit in id tempor ex mollit.",
-        "categories": [
+        "footnote": "Reprehenderit in id tempor ex mollit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "anim mollit sint duis commodo velit commodo incididunt nisi qui aliquip enim fugiat nisi reprehenderit minim enim anim sunt do do aliqua do ullamco officia",
@@ -30907,8 +30907,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Cillum qui deserunt velit anim anim amet labore Lorem.",
-        "categories": [
+        "footnote": "Cillum qui deserunt velit anim anim amet labore Lorem.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "est amet magna eu elit ea eu non ea minim eiusmod laborum mollit ut minim sit est nostrud id ut minim eiusmod culpa reprehenderit cupidatat",
@@ -31092,8 +31092,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Est non esse officia amet nostrud enim veniam amet commodo.",
-        "categories": [
+        "footnote": "Est non esse officia amet nostrud enim veniam amet commodo.",
+        "sections": [
           {
             "name": "Entree",
             "description": "sint mollit sunt veniam ad enim occaecat officia mollit adipisicing veniam anim elit deserunt magna aliquip enim sint officia ullamco anim et nostrud sint nostrud",
@@ -31299,8 +31299,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Ea sint sunt eiusmod aute amet proident incididunt.",
-        "categories": [
+        "footnote": "Ea sint sunt eiusmod aute amet proident incididunt.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "dolor labore elit cupidatat nostrud id ipsum commodo est nulla esse officia in amet laboris ullamco tempor ipsum voluptate pariatur aute cupidatat sunt et aliquip",
@@ -31554,8 +31554,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Incididunt mollit dolore officia reprehenderit sint incididunt non sit non mollit.",
-        "categories": [
+        "footnote": "Incididunt mollit dolore officia reprehenderit sint incididunt non sit non mollit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "amet adipisicing ipsum ullamco adipisicing amet ut dolor esse velit enim ex ex quis non consectetur qui est nostrud Lorem dolore laborum ad pariatur sit",
@@ -31799,8 +31799,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Quis eiusmod pariatur ut consectetur irure magna aute ullamco.",
-        "categories": [
+        "footnote": "Quis eiusmod pariatur ut consectetur irure magna aute ullamco.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sint excepteur voluptate est laborum deserunt nisi enim nisi fugiat minim exercitation nulla sunt irure do Lorem consequat culpa minim nulla velit cupidatat tempor labore",
@@ -31944,8 +31944,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Non in non deserunt occaecat non deserunt dolore dolore.",
-        "categories": [
+        "footnote": "Non in non deserunt occaecat non deserunt dolore dolore.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ut ut Lorem reprehenderit magna elit dolor est sunt nostrud in est adipisicing nulla irure mollit dolore anim labore et exercitation officia sunt aute velit",
@@ -32090,8 +32090,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Eiusmod aliquip ipsum eu est id ipsum culpa dolore occaecat sit cillum non culpa.",
-        "categories": [
+        "footnote": "Eiusmod aliquip ipsum eu est id ipsum culpa dolore occaecat sit cillum non culpa.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ipsum et commodo magna aliquip cillum veniam quis aliquip qui nostrud amet id ullamco proident enim nostrud consectetur anim excepteur excepteur aliquip laboris fugiat nostrud",
@@ -32199,8 +32199,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Proident duis sunt adipisicing excepteur exercitation eu deserunt ipsum mollit eu voluptate ipsum.",
-        "categories": [
+        "footnote": "Proident duis sunt adipisicing excepteur exercitation eu deserunt ipsum mollit eu voluptate ipsum.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "nulla nostrud sint Lorem do ut nisi dolor ea quis cupidatat laboris duis duis velit veniam reprehenderit incididunt tempor deserunt duis cupidatat reprehenderit Lorem Lorem",
@@ -32408,8 +32408,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Nisi consectetur reprehenderit sit est exercitation excepteur duis commodo officia proident nulla ex.",
-        "categories": [
+        "footnote": "Nisi consectetur reprehenderit sit est exercitation excepteur duis commodo officia proident nulla ex.",
+        "sections": [
           {
             "name": "Bites",
             "description": "officia laboris nulla esse consequat ullamco incididunt pariatur magna deserunt labore consequat consequat aliquip minim eiusmod officia occaecat aute sint in cupidatat ullamco commodo amet",
@@ -32536,8 +32536,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Amet dolore magna veniam aliqua.",
-        "categories": [
+        "footnote": "Amet dolore magna veniam aliqua.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "eiusmod culpa consectetur ipsum et reprehenderit sit deserunt incididunt dolor pariatur non tempor commodo sit laboris anim ut dolor aliqua reprehenderit ad nostrud irure reprehenderit",
@@ -32680,8 +32680,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Dolor irure nostrud nostrud non nostrud aute est.",
-        "categories": [
+        "footnote": "Dolor irure nostrud nostrud non nostrud aute est.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "sit culpa sunt non laboris nostrud reprehenderit laboris veniam laboris veniam et est id anim dolor labore ex veniam cupidatat est ipsum minim Lorem laborum",
@@ -32879,8 +32879,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Commodo do sit magna dolore eu in qui ullamco dolore excepteur ullamco exercitation.",
-        "categories": [
+        "footnote": "Commodo do sit magna dolore eu in qui ullamco dolore excepteur ullamco exercitation.",
+        "sections": [
           {
             "name": "Bites",
             "description": "quis id elit id incididunt labore magna Lorem aliquip esse enim reprehenderit commodo enim aute duis ullamco aliquip ex ut incididunt labore velit cupidatat quis",
@@ -33065,8 +33065,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Dolor proident dolore eiusmod nulla aute consectetur pariatur excepteur sint id id in aliquip.",
-        "categories": [
+        "footnote": "Dolor proident dolore eiusmod nulla aute consectetur pariatur excepteur sint id id in aliquip.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "eu et eu minim anim fugiat occaecat sunt tempor sit pariatur culpa eiusmod mollit excepteur tempor magna incididunt veniam occaecat irure sunt nulla velit et",
@@ -33162,8 +33162,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Qui dolore deserunt deserunt ipsum reprehenderit.",
-        "categories": [
+        "footnote": "Qui dolore deserunt deserunt ipsum reprehenderit.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ea tempor minim nisi mollit nisi aliquip Lorem sit est pariatur minim nisi adipisicing ea ad nisi tempor velit irure excepteur aute consectetur in veniam",
@@ -33294,8 +33294,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Excepteur aliquip pariatur aliqua proident voluptate est magna occaecat irure dolore culpa nisi mollit ex.",
-        "categories": [
+        "footnote": "Excepteur aliquip pariatur aliqua proident voluptate est magna occaecat irure dolore culpa nisi mollit ex.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "eu mollit irure amet non laborum duis veniam incididunt tempor id velit consequat aliqua quis labore irure laborum exercitation magna Lorem ullamco nulla velit laboris",
@@ -33552,8 +33552,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Non fugiat ex culpa consectetur nisi.",
-        "categories": [
+        "footnote": "Non fugiat ex culpa consectetur nisi.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "incididunt pariatur sint in sit dolore qui fugiat anim dolore dolore commodo aliquip proident anim Lorem exercitation adipisicing esse voluptate magna culpa do velit ullamco",
@@ -33721,8 +33721,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Aliqua ullamco pariatur velit eu tempor amet cupidatat dolore quis id est sunt amet eu.",
-        "categories": [
+        "footnote": "Aliqua ullamco pariatur velit eu tempor amet cupidatat dolore quis id est sunt amet eu.",
+        "sections": [
           {
             "name": "Entree",
             "description": "irure ipsum sint ipsum sit culpa proident in mollit incididunt culpa et ut cupidatat duis elit labore sint ea enim ut minim elit consectetur sunt",
@@ -33971,8 +33971,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Laborum occaecat laborum quis aliquip labore amet nisi minim amet fugiat qui.",
-        "categories": [
+        "footnote": "Laborum occaecat laborum quis aliquip labore amet nisi minim amet fugiat qui.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "est officia mollit voluptate non ea eiusmod fugiat deserunt et exercitation eu sunt ullamco ullamco cillum culpa consequat est irure nostrud sint esse deserunt labore",
@@ -34071,8 +34071,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Id laborum voluptate magna voluptate eu qui veniam amet.",
-        "categories": [
+        "footnote": "Id laborum voluptate magna voluptate eu qui veniam amet.",
+        "sections": [
           {
             "name": "Bites",
             "description": "est labore esse dolor irure incididunt proident esse aliqua dolore esse proident nisi anim do aute excepteur ad sint duis dolor anim deserunt velit consectetur",
@@ -34227,8 +34227,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Est non velit quis ullamco cillum deserunt ullamco qui quis culpa aliquip tempor fugiat in.",
-        "categories": [
+        "footnote": "Est non velit quis ullamco cillum deserunt ullamco qui quis culpa aliquip tempor fugiat in.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "aliqua ut cillum ea et exercitation aute cupidatat aliqua magna ea enim officia aliqua ex aliquip consectetur cupidatat ut veniam amet sit deserunt aute velit",
@@ -34350,8 +34350,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Eiusmod fugiat mollit enim ad consequat amet enim aute consequat pariatur velit.",
-        "categories": [
+        "footnote": "Eiusmod fugiat mollit enim ad consequat amet enim aute consequat pariatur velit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ex magna adipisicing nisi duis culpa sit dolor culpa excepteur voluptate Lorem occaecat aliqua proident cillum consectetur veniam sunt consequat amet incididunt Lorem nulla in",
@@ -34526,8 +34526,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Commodo enim ullamco cillum adipisicing ut aute reprehenderit voluptate.",
-        "categories": [
+        "footnote": "Commodo enim ullamco cillum adipisicing ut aute reprehenderit voluptate.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "mollit minim sit pariatur exercitation eiusmod ipsum elit consequat veniam non sunt qui veniam consectetur exercitation aliqua aute eu consectetur esse esse consequat excepteur laboris",
@@ -34645,8 +34645,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Qui et cupidatat ad fugiat dolor proident nulla aliquip ex qui.",
-        "categories": [
+        "footnote": "Qui et cupidatat ad fugiat dolor proident nulla aliquip ex qui.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ut amet nulla do incididunt reprehenderit laboris cillum reprehenderit qui consequat nisi irure duis laboris elit sint anim ullamco veniam ut aute officia voluptate Lorem",
@@ -34804,8 +34804,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Velit quis Lorem deserunt ipsum sunt ad dolore fugiat occaecat nulla voluptate do aliqua cillum.",
-        "categories": [
+        "footnote": "Velit quis Lorem deserunt ipsum sunt ad dolore fugiat occaecat nulla voluptate do aliqua cillum.",
+        "sections": [
           {
             "name": "Bites",
             "description": "do voluptate voluptate cupidatat consectetur irure aute sunt non laborum anim culpa ea excepteur consequat reprehenderit deserunt fugiat duis sit ea commodo nisi aute do",
@@ -34936,8 +34936,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Dolore enim mollit excepteur consectetur do cillum duis excepteur adipisicing velit laborum irure.",
-        "categories": [
+        "footnote": "Dolore enim mollit excepteur consectetur do cillum duis excepteur adipisicing velit laborum irure.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "aliquip proident do elit laborum do anim elit ad elit enim ex officia anim tempor fugiat ea nisi do nostrud id elit pariatur ad sint",
@@ -35056,8 +35056,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Veniam amet elit aliqua sint aliquip voluptate nisi.",
-        "categories": [
+        "footnote": "Veniam amet elit aliqua sint aliquip voluptate nisi.",
+        "sections": [
           {
             "name": "Entree",
             "description": "elit ex do excepteur fugiat ea qui do et elit aliquip esse adipisicing veniam dolore velit velit reprehenderit sunt Lorem eiusmod ipsum duis quis voluptate",
@@ -35198,8 +35198,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ullamco aliqua esse culpa sunt dolor adipisicing proident.",
-        "categories": [
+        "footnote": "Ullamco aliqua esse culpa sunt dolor adipisicing proident.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "proident consectetur incididunt laboris in sit aliquip sunt deserunt occaecat ullamco consequat elit in elit commodo voluptate dolore deserunt fugiat sit occaecat labore minim id",
@@ -35407,8 +35407,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Ex sint id reprehenderit consequat eiusmod.",
-        "categories": [
+        "footnote": "Ex sint id reprehenderit consequat eiusmod.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "adipisicing cupidatat occaecat cillum ex laboris aute proident ut tempor esse commodo in voluptate nulla amet pariatur dolore aliqua esse voluptate mollit dolore cillum magna",
@@ -35592,8 +35592,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Laborum aute ad pariatur tempor.",
-        "categories": [
+        "footnote": "Laborum aute ad pariatur tempor.",
+        "sections": [
           {
             "name": "Bites",
             "description": "dolor aliqua ad officia deserunt ut proident ad eiusmod occaecat sint veniam cupidatat anim ut sunt laboris ea ullamco eiusmod deserunt nulla voluptate deserunt minim",
@@ -35816,8 +35816,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Nostrud duis aute sunt veniam anim pariatur ut officia occaecat exercitation consequat do.",
-        "categories": [
+        "footnote": "Nostrud duis aute sunt veniam anim pariatur ut officia occaecat exercitation consequat do.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "sit proident cupidatat ex incididunt dolore non dolor sit dolor reprehenderit et nostrud Lorem voluptate irure tempor enim veniam adipisicing excepteur qui eu excepteur sit",
@@ -36017,8 +36017,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Tempor dolore eu aliqua reprehenderit minim in fugiat id aute ullamco eiusmod.",
-        "categories": [
+        "footnote": "Tempor dolore eu aliqua reprehenderit minim in fugiat id aute ullamco eiusmod.",
+        "sections": [
           {
             "name": "Entree",
             "description": "eiusmod sint consequat qui laboris ea anim sunt sint ullamco laborum aliqua ad anim non irure in velit ipsum anim magna sunt consequat excepteur elit",
@@ -36289,8 +36289,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Aliqua aliquip duis adipisicing quis.",
-        "categories": [
+        "footnote": "Aliqua aliquip duis adipisicing quis.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "elit reprehenderit ex nisi tempor ea tempor elit duis nostrud deserunt qui proident in ea ut nostrud irure qui ea culpa velit sit quis ex",
@@ -36490,8 +36490,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Adipisicing ullamco aliqua ea incididunt tempor elit.",
-        "categories": [
+        "footnote": "Adipisicing ullamco aliqua ea incididunt tempor elit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "sint duis enim nostrud commodo duis duis cillum proident ullamco et reprehenderit magna nulla eiusmod ut laborum pariatur et deserunt labore magna sunt consectetur duis",
@@ -36685,8 +36685,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Culpa officia laboris mollit laborum nulla labore.",
-        "categories": [
+        "footnote": "Culpa officia laboris mollit laborum nulla labore.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "eu ut sit est qui exercitation officia esse est velit ea excepteur anim duis excepteur pariatur pariatur duis eu labore laborum tempor ex nisi Lorem",
@@ -36913,8 +36913,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Occaecat aliquip do consectetur sunt velit.",
-        "categories": [
+        "footnote": "Occaecat aliquip do consectetur sunt velit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laboris nulla elit ea in ut magna ut voluptate ex est excepteur duis occaecat sit mollit fugiat consequat ullamco labore cupidatat adipisicing incididunt et tempor",
@@ -37000,8 +37000,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Quis exercitation enim nisi cupidatat eu ipsum.",
-        "categories": [
+        "footnote": "Quis exercitation enim nisi cupidatat eu ipsum.",
+        "sections": [
           {
             "name": "Bites",
             "description": "non et pariatur nisi aliquip nulla ipsum cupidatat ea nulla nisi occaecat reprehenderit deserunt laboris sit proident et duis sint sit occaecat laborum non tempor",
@@ -37197,8 +37197,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Laborum ea quis culpa quis ex est ipsum elit.",
-        "categories": [
+        "footnote": "Laborum ea quis culpa quis ex est ipsum elit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "quis aute aute pariatur cupidatat laborum dolore dolor officia irure veniam sit irure ullamco ipsum officia occaecat duis culpa amet enim sunt cillum Lorem veniam",
@@ -37315,8 +37315,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Proident aliquip excepteur ea voluptate officia cupidatat incididunt minim.",
-        "categories": [
+        "footnote": "Proident aliquip excepteur ea voluptate officia cupidatat incididunt minim.",
+        "sections": [
           {
             "name": "Entree",
             "description": "tempor ullamco est in qui cillum id Lorem in consectetur laborum quis officia consectetur et reprehenderit ipsum aute magna amet consequat et enim cillum nulla",
@@ -37516,8 +37516,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Mollit commodo do laboris non laboris.",
-        "categories": [
+        "footnote": "Mollit commodo do laboris non laboris.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "dolor et excepteur in veniam consequat veniam minim non id cupidatat eiusmod pariatur mollit mollit esse enim eiusmod labore est irure esse magna deserunt consequat",
@@ -37711,8 +37711,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Dolor magna tempor est voluptate occaecat laboris commodo consectetur in dolor aliqua ipsum ea.",
-        "categories": [
+        "footnote": "Dolor magna tempor est voluptate occaecat laboris commodo consectetur in dolor aliqua ipsum ea.",
+        "sections": [
           {
             "name": "Bites",
             "description": "laborum officia incididunt non est consectetur occaecat aliqua dolore quis eu proident ex occaecat deserunt incididunt ex do occaecat anim ex et incididunt sint Lorem",
@@ -37783,8 +37783,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Deserunt nulla ut dolore occaecat elit proident.",
-        "categories": [
+        "footnote": "Deserunt nulla ut dolore occaecat elit proident.",
+        "sections": [
           {
             "name": "Bites",
             "description": "pariatur non incididunt cupidatat deserunt reprehenderit nostrud id adipisicing adipisicing sunt cillum qui cupidatat ad reprehenderit eiusmod occaecat officia adipisicing velit quis ut laborum aliqua",
@@ -37998,8 +37998,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Et in officia do Lorem aute Lorem adipisicing tempor do nostrud veniam minim ipsum veniam.",
-        "categories": [
+        "footnote": "Et in officia do Lorem aute Lorem adipisicing tempor do nostrud veniam minim ipsum veniam.",
+        "sections": [
           {
             "name": "Entree",
             "description": "adipisicing non ea fugiat aliquip in duis ipsum esse consequat incididunt eiusmod qui ut proident irure eiusmod eu consectetur aute in ut irure fugiat ad",
@@ -38166,8 +38166,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Proident eu tempor culpa in velit magna sint nulla ad cupidatat.",
-        "categories": [
+        "footnote": "Proident eu tempor culpa in velit magna sint nulla ad cupidatat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "commodo ipsum elit nulla reprehenderit proident aute ea consectetur reprehenderit enim veniam exercitation duis reprehenderit veniam non mollit dolore velit cupidatat proident enim non eu",
@@ -38353,8 +38353,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Veniam proident aute id ullamco ullamco dolor ullamco mollit nisi.",
-        "categories": [
+        "footnote": "Veniam proident aute id ullamco ullamco dolor ullamco mollit nisi.",
+        "sections": [
           {
             "name": "Entree",
             "description": "est aliquip culpa nisi occaecat dolor duis nulla excepteur est laboris commodo occaecat dolore nisi sit amet aute est est mollit excepteur aliqua incididunt consectetur",
@@ -38449,8 +38449,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Mollit do enim quis id labore ea ullamco ad.",
-        "categories": [
+        "footnote": "Mollit do enim quis id labore ea ullamco ad.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ipsum id dolor officia minim qui reprehenderit sunt occaecat mollit ea incididunt nisi deserunt exercitation aliqua qui laborum deserunt esse cupidatat amet ex cupidatat nisi",
@@ -38618,8 +38618,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Quis enim eiusmod dolor adipisicing et dolor enim ex dolore veniam.",
-        "categories": [
+        "footnote": "Quis enim eiusmod dolor adipisicing et dolor enim ex dolore veniam.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "Lorem aute dolor consequat sit cillum velit minim do sunt est sint non esse minim officia fugiat dolor aute eu aute mollit culpa ullamco eiusmod",
@@ -38810,8 +38810,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Magna pariatur ex in deserunt irure nulla consectetur consequat.",
-        "categories": [
+        "footnote": "Magna pariatur ex in deserunt irure nulla consectetur consequat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "proident esse duis occaecat mollit occaecat veniam est culpa sit voluptate tempor laborum ea incididunt consectetur non qui commodo eu do laborum Lorem minim aliqua",
@@ -38960,8 +38960,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Ut do eu deserunt consectetur adipisicing exercitation pariatur pariatur voluptate amet sunt.",
-        "categories": [
+        "footnote": "Ut do eu deserunt consectetur adipisicing exercitation pariatur pariatur voluptate amet sunt.",
+        "sections": [
           {
             "name": "Entree",
             "description": "laboris culpa laboris esse velit commodo fugiat cupidatat reprehenderit culpa sint amet velit fugiat nisi officia incididunt est laborum in ut elit ad velit commodo",
@@ -39031,8 +39031,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Pariatur excepteur et qui Lorem do est irure adipisicing irure aliqua dolore cupidatat culpa.",
-        "categories": [
+        "footnote": "Pariatur excepteur et qui Lorem do est irure adipisicing irure aliqua dolore cupidatat culpa.",
+        "sections": [
           {
             "name": "Entree",
             "description": "occaecat fugiat duis voluptate ipsum velit laboris dolor pariatur ea ad ea elit irure dolore non nostrud laborum aute Lorem excepteur adipisicing sunt aliquip esse",
@@ -39187,8 +39187,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Reprehenderit et sint quis do sit nostrud cillum in sit reprehenderit consectetur velit proident.",
-        "categories": [
+        "footnote": "Reprehenderit et sint quis do sit nostrud cillum in sit reprehenderit consectetur velit proident.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "eu mollit eu ipsum sit in do dolor cupidatat velit in anim labore laboris mollit aute tempor tempor incididunt est et est enim velit incididunt",
@@ -39351,8 +39351,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Exercitation ipsum velit velit reprehenderit exercitation exercitation dolor in quis cupidatat tempor.",
-        "categories": [
+        "footnote": "Exercitation ipsum velit velit reprehenderit exercitation exercitation dolor in quis cupidatat tempor.",
+        "sections": [
           {
             "name": "Entree",
             "description": "proident esse et consequat labore ex consectetur ut do sit ea et reprehenderit id fugiat consequat excepteur non elit dolor nostrud qui sit eu duis",
@@ -39616,8 +39616,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "In ea Lorem exercitation officia adipisicing voluptate commodo tempor laborum labore duis sint sint.",
-        "categories": [
+        "footnote": "In ea Lorem exercitation officia adipisicing voluptate commodo tempor laborum labore duis sint sint.",
+        "sections": [
           {
             "name": "Entree",
             "description": "culpa ea sit eu pariatur Lorem pariatur nisi pariatur elit quis do aute voluptate enim aliqua magna reprehenderit quis aliquip cillum do consectetur ut consequat",
@@ -39759,8 +39759,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Nostrud et consectetur quis voluptate.",
-        "categories": [
+        "footnote": "Nostrud et consectetur quis voluptate.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "eu dolor dolore velit sit voluptate magna commodo eu qui est ullamco officia eiusmod id consectetur id eiusmod et Lorem sint reprehenderit elit laborum Lorem",
@@ -39886,8 +39886,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Aliquip in minim deserunt ipsum Lorem.",
-        "categories": [
+        "footnote": "Aliquip in minim deserunt ipsum Lorem.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ipsum dolore incididunt voluptate deserunt in occaecat pariatur minim aliqua est consectetur non nisi dolor labore laboris pariatur laboris exercitation anim ullamco fugiat exercitation commodo",
@@ -40073,8 +40073,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Dolor in id minim occaecat incididunt eiusmod exercitation.",
-        "categories": [
+        "footnote": "Dolor in id minim occaecat incididunt eiusmod exercitation.",
+        "sections": [
           {
             "name": "Entree",
             "description": "ex nisi consectetur sunt enim deserunt aliquip ex qui dolore officia dolore sint magna duis aliqua officia esse ullamco cupidatat commodo ea occaecat sit ex",
@@ -40201,8 +40201,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Pariatur deserunt anim ea sint exercitation anim.",
-        "categories": [
+        "footnote": "Pariatur deserunt anim ea sint exercitation anim.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "id esse nostrud ipsum labore esse aliquip adipisicing commodo laboris sint non laboris exercitation mollit proident veniam officia voluptate enim elit deserunt occaecat tempor deserunt",
@@ -40280,8 +40280,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Lorem officia sunt non culpa veniam nostrud labore sit.",
-        "categories": [
+        "footnote": "Lorem officia sunt non culpa veniam nostrud labore sit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "amet tempor proident ea duis cillum consequat proident eu minim incididunt amet adipisicing aliquip sunt proident tempor velit elit labore fugiat ullamco cillum amet ipsum",
@@ -40451,8 +40451,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Aute ad ex proident dolore fugiat culpa dolore ipsum nulla consequat nulla in.",
-        "categories": [
+        "footnote": "Aute ad ex proident dolore fugiat culpa dolore ipsum nulla consequat nulla in.",
+        "sections": [
           {
             "name": "Bites",
             "description": "dolore ut ea sunt et labore dolor occaecat pariatur deserunt exercitation nostrud veniam ea consequat est sunt nulla enim deserunt exercitation in in fugiat nisi",
@@ -40734,8 +40734,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ex aute elit qui dolore aliquip cillum do laboris fugiat qui nisi consectetur ullamco labore.",
-        "categories": [
+        "footnote": "Ex aute elit qui dolore aliquip cillum do laboris fugiat qui nisi consectetur ullamco labore.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ex cupidatat magna nisi consectetur sint tempor Lorem ad cillum sit voluptate sit aliqua qui pariatur deserunt id cupidatat velit ex id sit excepteur esse",
@@ -40833,8 +40833,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Pariatur veniam deserunt deserunt mollit mollit esse laborum aliqua ullamco.",
-        "categories": [
+        "footnote": "Pariatur veniam deserunt deserunt mollit mollit esse laborum aliqua ullamco.",
+        "sections": [
           {
             "name": "Bites",
             "description": "quis qui excepteur ea laboris ex reprehenderit elit laborum adipisicing sint reprehenderit qui cillum ullamco magna nostrud esse quis nostrud nisi dolor cupidatat nostrud adipisicing",
@@ -41063,8 +41063,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Culpa duis nostrud incididunt fugiat non consectetur.",
-        "categories": [
+        "footnote": "Culpa duis nostrud incididunt fugiat non consectetur.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "anim cillum id ea aliqua Lorem culpa sit irure sunt cillum enim pariatur ipsum velit sit cillum aute pariatur nisi quis ipsum sit eu esse",
@@ -41308,8 +41308,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Adipisicing commodo culpa commodo irure.",
-        "categories": [
+        "footnote": "Adipisicing commodo culpa commodo irure.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laborum mollit sint anim ex aute nisi nostrud amet mollit cupidatat consectetur officia nulla ut exercitation aliquip culpa Lorem pariatur mollit ipsum quis ad ea",
@@ -41543,8 +41543,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Cupidatat sint pariatur aliquip occaecat proident voluptate.",
-        "categories": [
+        "footnote": "Cupidatat sint pariatur aliquip occaecat proident voluptate.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "eiusmod eiusmod est labore aliquip adipisicing irure amet exercitation aliquip officia mollit Lorem occaecat consectetur ea enim aliquip do nulla mollit in excepteur fugiat exercitation",
@@ -41777,8 +41777,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Dolore sunt ut labore culpa nulla exercitation eiusmod sunt.",
-        "categories": [
+        "footnote": "Dolore sunt ut labore culpa nulla exercitation eiusmod sunt.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ex minim nulla deserunt sint et tempor do occaecat elit fugiat Lorem sit aute minim incididunt quis ea non occaecat sit laboris aute excepteur occaecat",
@@ -41900,8 +41900,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Amet occaecat aliqua nisi commodo enim eu ad consequat fugiat.",
-        "categories": [
+        "footnote": "Amet occaecat aliqua nisi commodo enim eu ad consequat fugiat.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "esse ea adipisicing deserunt id nostrud magna adipisicing et laboris tempor labore ullamco esse in eiusmod et minim ea deserunt reprehenderit aute enim cupidatat minim",
@@ -42145,8 +42145,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Quis labore pariatur consectetur excepteur elit commodo adipisicing veniam elit dolor nostrud est minim.",
-        "categories": [
+        "footnote": "Quis labore pariatur consectetur excepteur elit commodo adipisicing veniam elit dolor nostrud est minim.",
+        "sections": [
           {
             "name": "Bites",
             "description": "ad dolore non deserunt occaecat amet esse fugiat proident eiusmod consequat Lorem enim nisi do Lorem nostrud veniam nisi eiusmod quis mollit esse aliquip ea",
@@ -42250,8 +42250,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Deserunt aliquip commodo sunt ex excepteur.",
-        "categories": [
+        "footnote": "Deserunt aliquip commodo sunt ex excepteur.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "incididunt ea sunt duis ut adipisicing excepteur cupidatat aute sint ex deserunt dolore nulla commodo in esse deserunt consequat amet nulla aute dolore irure officia",
@@ -42351,8 +42351,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Velit et nostrud duis dolor est enim nulla irure Lorem Lorem.",
-        "categories": [
+        "footnote": "Velit et nostrud duis dolor est enim nulla irure Lorem Lorem.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "velit elit qui est occaecat aliquip amet labore elit culpa dolore ullamco ullamco non occaecat dolor eiusmod deserunt id pariatur aliqua ut nulla qui laboris",
@@ -42522,8 +42522,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Cillum veniam incididunt ex nisi.",
-        "categories": [
+        "footnote": "Cillum veniam incididunt ex nisi.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ad ut adipisicing amet irure ad fugiat fugiat dolor aliqua voluptate incididunt laborum nostrud sint nostrud dolore non laboris dolor do ex aute nostrud id",
@@ -42657,8 +42657,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Sint dolor non est non laboris quis est deserunt ea.",
-        "categories": [
+        "footnote": "Sint dolor non est non laboris quis est deserunt ea.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "exercitation do fugiat aute ex aute deserunt est voluptate duis consectetur excepteur elit tempor pariatur aute ipsum sint consectetur sint adipisicing labore adipisicing pariatur eu",
@@ -42809,8 +42809,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Incididunt ipsum cillum pariatur eiusmod labore nostrud proident excepteur eiusmod cillum nostrud.",
-        "categories": [
+        "footnote": "Incididunt ipsum cillum pariatur eiusmod labore nostrud proident excepteur eiusmod cillum nostrud.",
+        "sections": [
           {
             "name": "Entree",
             "description": "eiusmod voluptate duis mollit eiusmod do cillum dolor enim cupidatat Lorem voluptate labore veniam culpa ad tempor labore et irure sit aliquip do ullamco sint",
@@ -42910,8 +42910,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Ipsum esse reprehenderit do veniam minim dolor ea excepteur aute quis id amet sint.",
-        "categories": [
+        "footnote": "Ipsum esse reprehenderit do veniam minim dolor ea excepteur aute quis id amet sint.",
+        "sections": [
           {
             "name": "Entree",
             "description": "sint labore aute aliqua do culpa duis minim minim irure sit reprehenderit fugiat labore do non Lorem do nulla sint esse dolore elit eu cupidatat",
@@ -43058,8 +43058,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Et et esse dolor deserunt fugiat eiusmod minim ullamco sunt.",
-        "categories": [
+        "footnote": "Et et esse dolor deserunt fugiat eiusmod minim ullamco sunt.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "veniam id ad incididunt do tempor culpa duis eu anim nostrud consequat officia incididunt cupidatat nulla aliquip occaecat amet reprehenderit deserunt eiusmod cillum sit in",
@@ -43297,8 +43297,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Adipisicing mollit velit duis Lorem magna officia Lorem dolore consectetur elit eiusmod velit ullamco.",
-        "categories": [
+        "footnote": "Adipisicing mollit velit duis Lorem magna officia Lorem dolore consectetur elit eiusmod velit ullamco.",
+        "sections": [
           {
             "name": "Bites",
             "description": "consectetur cillum cupidatat irure dolore non dolor et est aliqua esse adipisicing cupidatat eiusmod voluptate minim aute incididunt eu velit fugiat aliqua consectetur consequat laboris",
@@ -43456,8 +43456,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Ut laboris pariatur aute exercitation.",
-        "categories": [
+        "footnote": "Ut laboris pariatur aute exercitation.",
+        "sections": [
           {
             "name": "Entree",
             "description": "sunt sunt culpa ipsum ex consequat id exercitation elit occaecat ipsum reprehenderit aliquip irure anim adipisicing sint veniam aliquip ut consectetur ipsum excepteur reprehenderit dolor",
@@ -43653,8 +43653,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Ad duis officia aliquip fugiat cillum nostrud eiusmod sunt dolor enim adipisicing labore laborum nulla.",
-        "categories": [
+        "footnote": "Ad duis officia aliquip fugiat cillum nostrud eiusmod sunt dolor enim adipisicing labore laborum nulla.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "dolore dolore veniam labore deserunt veniam laboris incididunt incididunt est minim amet consectetur nostrud voluptate fugiat voluptate adipisicing enim labore id fugiat ipsum nostrud proident",
@@ -43775,8 +43775,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Minim non mollit cupidatat consequat cupidatat consectetur sunt cillum dolore eiusmod eiusmod magna deserunt.",
-        "categories": [
+        "footnote": "Minim non mollit cupidatat consequat cupidatat consectetur sunt cillum dolore eiusmod eiusmod magna deserunt.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "ex nostrud laborum incididunt anim aute ex cillum magna excepteur aute occaecat amet ad aliquip fugiat exercitation amet eu amet quis eiusmod culpa est ea",
@@ -43918,8 +43918,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Elit occaecat est eu mollit ex.",
-        "categories": [
+        "footnote": "Elit occaecat est eu mollit ex.",
+        "sections": [
           {
             "name": "Bites",
             "description": "consectetur commodo excepteur duis irure amet eiusmod aliquip exercitation ea voluptate magna commodo Lorem irure aliquip eiusmod amet culpa reprehenderit fugiat proident ut Lorem occaecat",
@@ -44026,8 +44026,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Veniam voluptate voluptate ex exercitation cillum cupidatat elit proident consequat nulla excepteur.",
-        "categories": [
+        "footnote": "Veniam voluptate voluptate ex exercitation cillum cupidatat elit proident consequat nulla excepteur.",
+        "sections": [
           {
             "name": "Bites",
             "description": "Lorem magna sunt ea ipsum laboris enim ad laboris ea mollit in enim occaecat tempor officia consequat non sint labore et eiusmod id excepteur culpa",
@@ -44304,8 +44304,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Nisi adipisicing consectetur sunt qui occaecat cillum minim dolore ad magna.",
-        "categories": [
+        "footnote": "Nisi adipisicing consectetur sunt qui occaecat cillum minim dolore ad magna.",
+        "sections": [
           {
             "name": "Entree",
             "description": "magna ullamco consequat in aute sit aliquip quis excepteur non enim est reprehenderit sint veniam id aute dolore anim cupidatat ipsum fugiat dolor cillum ipsum",
@@ -44535,8 +44535,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Veniam adipisicing veniam duis aliqua laboris pariatur exercitation cupidatat voluptate nulla.",
-        "categories": [
+        "footnote": "Veniam adipisicing veniam duis aliqua laboris pariatur exercitation cupidatat voluptate nulla.",
+        "sections": [
           {
             "name": "Bites",
             "description": "cupidatat reprehenderit nostrud cillum veniam ea do eiusmod nisi enim sit exercitation laboris proident ex sit dolor est velit ut cillum proident mollit excepteur in",
@@ -44707,8 +44707,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Ullamco amet ad irure et officia non veniam proident velit exercitation eu amet Lorem minim.",
-        "categories": [
+        "footnote": "Ullamco amet ad irure et officia non veniam proident velit exercitation eu amet Lorem minim.",
+        "sections": [
           {
             "name": "Bites",
             "description": "occaecat excepteur ipsum incididunt aliqua culpa id cillum cupidatat in aute reprehenderit officia magna incididunt officia et dolor culpa nostrud sunt ut Lorem est est",
@@ -44793,8 +44793,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Commodo fugiat dolore aliqua irure irure velit sunt adipisicing.",
-        "categories": [
+        "footnote": "Commodo fugiat dolore aliqua irure irure velit sunt adipisicing.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laboris ut mollit esse in Lorem cupidatat sint eiusmod irure culpa et do consequat quis mollit sunt proident culpa laboris exercitation eu officia ex in",
@@ -44915,8 +44915,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Laboris occaecat occaecat laboris sit.",
-        "categories": [
+        "footnote": "Laboris occaecat occaecat laboris sit.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "laboris sit eu irure anim sit aliqua qui magna minim qui aute et do in nisi et consectetur id do dolore anim excepteur elit nulla",
@@ -45024,8 +45024,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Duis irure veniam ipsum nostrud elit in commodo et quis ipsum.",
-        "categories": [
+        "footnote": "Duis irure veniam ipsum nostrud elit in commodo et quis ipsum.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "minim magna ut et laborum dolore magna qui cillum et eiusmod anim deserunt qui est duis et nulla amet sint proident adipisicing ullamco nostrud laboris",
@@ -45159,8 +45159,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Quis laborum exercitation nulla qui ea exercitation commodo.",
-        "categories": [
+        "footnote": "Quis laborum exercitation nulla qui ea exercitation commodo.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "Lorem consequat sint reprehenderit duis ad laboris qui aute veniam Lorem deserunt dolor mollit nisi excepteur culpa pariatur proident incididunt eiusmod enim qui duis nostrud",
@@ -45304,8 +45304,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Deserunt officia ullamco ad ullamco ex non cillum esse occaecat et cupidatat.",
-        "categories": [
+        "footnote": "Deserunt officia ullamco ad ullamco ex non cillum esse occaecat et cupidatat.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "ex quis non nulla eiusmod enim dolor nisi tempor deserunt laborum duis ea eu deserunt duis Lorem do dolore voluptate proident aliqua in nulla esse",
@@ -45545,8 +45545,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Et occaecat duis elit ut enim aliqua non tempor.",
-        "categories": [
+        "footnote": "Et occaecat duis elit ut enim aliqua non tempor.",
+        "sections": [
           {
             "name": "Bites",
             "description": "occaecat non irure pariatur id in eiusmod nulla exercitation cupidatat officia amet dolor reprehenderit excepteur cupidatat dolore est aliquip laboris irure commodo cillum minim ut",
@@ -45668,8 +45668,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliqua reprehenderit esse esse aliqua sint velit.",
-        "categories": [
+        "footnote": "Aliqua reprehenderit esse esse aliqua sint velit.",
+        "sections": [
           {
             "name": "Bites",
             "description": "officia non sint minim deserunt ad ex veniam ex cillum esse sit fugiat aliquip nostrud ipsum sunt do excepteur deserunt adipisicing in cupidatat consectetur ut",
@@ -45861,8 +45861,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Adipisicing id irure exercitation qui commodo irure anim et fugiat laboris laboris aliquip.",
-        "categories": [
+        "footnote": "Adipisicing id irure exercitation qui commodo irure anim et fugiat laboris laboris aliquip.",
+        "sections": [
           {
             "name": "Bites",
             "description": "laborum irure proident nulla exercitation dolor incididunt minim veniam amet sunt eu proident consectetur dolor Lorem ex aliquip reprehenderit laboris do aliqua occaecat eu aliquip",
@@ -46151,8 +46151,8 @@
     "cards": [
       {
         "name": "Lunch",
-        "notes": "Nisi ad esse officia exercitation aliqua eiusmod sit veniam irure magna eiusmod esse id nulla.",
-        "categories": [
+        "footnote": "Nisi ad esse officia exercitation aliqua eiusmod sit veniam irure magna eiusmod esse id nulla.",
+        "sections": [
           {
             "name": "Entree",
             "description": "sit ea esse ut duis aliquip sit nostrud dolore est Lorem nulla culpa duis id ipsum ea laboris deserunt minim exercitation laboris enim mollit nisi",
@@ -46419,8 +46419,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Aliqua occaecat minim quis ullamco magna nulla deserunt tempor consequat et.",
-        "categories": [
+        "footnote": "Aliqua occaecat minim quis ullamco magna nulla deserunt tempor consequat et.",
+        "sections": [
           {
             "name": "Bites",
             "description": "proident proident nulla occaecat consequat laborum voluptate ipsum anim exercitation Lorem occaecat non sit cupidatat adipisicing mollit id ex minim ut exercitation cillum sunt do",
@@ -46621,8 +46621,8 @@
     "cards": [
       {
         "name": "Dinner",
-        "notes": "Consequat officia exercitation sit adipisicing est.",
-        "categories": [
+        "footnote": "Consequat officia exercitation sit adipisicing est.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "id anim elit in sunt minim laborum culpa eu ut magna est nostrud exercitation reprehenderit minim commodo laborum cupidatat non irure duis ad eu consequat",
@@ -46867,8 +46867,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Nisi eiusmod est nulla voluptate.",
-        "categories": [
+        "footnote": "Nisi eiusmod est nulla voluptate.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "commodo laboris dolor quis do ut eiusmod sint consectetur qui id deserunt mollit sit est sit esse elit cillum irure eiusmod aute excepteur et velit",
@@ -47051,8 +47051,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Qui nulla laboris cupidatat esse ipsum qui in consectetur cillum veniam quis velit.",
-        "categories": [
+        "footnote": "Qui nulla laboris cupidatat esse ipsum qui in consectetur cillum veniam quis velit.",
+        "sections": [
           {
             "name": "Entree",
             "description": "tempor anim in reprehenderit amet tempor nostrud sit tempor ea voluptate cillum mollit dolore consequat id labore dolore quis ex velit laborum consectetur consectetur ut",
@@ -47221,8 +47221,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Aute pariatur non incididunt voluptate pariatur nostrud culpa nulla.",
-        "categories": [
+        "footnote": "Aute pariatur non incididunt voluptate pariatur nostrud culpa nulla.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "occaecat culpa sit labore commodo nostrud commodo voluptate laboris reprehenderit minim non laborum nisi reprehenderit cillum do ipsum veniam nulla consequat veniam id occaecat culpa",
@@ -47386,8 +47386,8 @@
       },
       {
         "name": "Sunday Brunch",
-        "notes": "Tempor laborum exercitation commodo exercitation id laborum eiusmod ea minim ex.",
-        "categories": [
+        "footnote": "Tempor laborum exercitation commodo exercitation id laborum eiusmod ea minim ex.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "nulla exercitation magna deserunt elit duis incididunt ad excepteur aliquip sit cillum laboris aute ipsum veniam esse ullamco cillum culpa laboris est enim qui eu",
@@ -47586,8 +47586,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Aliquip sit occaecat fugiat magna dolor laboris tempor pariatur ea.",
-        "categories": [
+        "footnote": "Aliquip sit occaecat fugiat magna dolor laboris tempor pariatur ea.",
+        "sections": [
           {
             "name": "Entree",
             "description": "voluptate pariatur minim quis labore est irure consectetur Lorem nulla officia elit nostrud enim non enim veniam exercitation ea excepteur Lorem anim id aliquip ipsum",
@@ -47802,8 +47802,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Laboris culpa et ad in non et ullamco.",
-        "categories": [
+        "footnote": "Laboris culpa et ad in non et ullamco.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "fugiat eu mollit excepteur ullamco veniam nulla esse occaecat excepteur amet nulla laborum excepteur laborum incididunt aliquip aliqua dolore nisi dolor aliqua ad dolor minim",
@@ -48059,8 +48059,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Voluptate dolore dolore enim aliquip laborum tempor consectetur.",
-        "categories": [
+        "footnote": "Voluptate dolore dolore enim aliquip laborum tempor consectetur.",
+        "sections": [
           {
             "name": "Dessert",
             "description": "qui voluptate laborum elit quis cupidatat sunt ut cillum proident commodo dolore laboris consequat officia eiusmod labore duis labore proident ipsum amet ad dolor reprehenderit",
@@ -48184,8 +48184,8 @@
     "cards": [
       {
         "name": "Sunday Brunch",
-        "notes": "Consequat velit ad irure deserunt aute consequat in incididunt quis eu in laboris officia.",
-        "categories": [
+        "footnote": "Consequat velit ad irure deserunt aute consequat in incididunt quis eu in laboris officia.",
+        "sections": [
           {
             "name": "Bites",
             "description": "tempor aute aliqua mollit fugiat reprehenderit cillum nulla labore magna laborum ipsum amet aliqua enim in nulla ad veniam elit dolore aliquip labore minim amet",
@@ -48254,8 +48254,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Sunt esse labore fugiat enim consectetur nulla.",
-        "categories": [
+        "footnote": "Sunt esse labore fugiat enim consectetur nulla.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "qui eu proident laborum exercitation ad laboris exercitation est elit ipsum reprehenderit est nisi ullamco consequat reprehenderit qui incididunt cillum officia dolore qui veniam et",
@@ -48434,8 +48434,8 @@
       },
       {
         "name": "Dinner",
-        "notes": "Ad consequat labore ex labore nisi enim id culpa eu nulla sint.",
-        "categories": [
+        "footnote": "Ad consequat labore ex labore nisi enim id culpa eu nulla sint.",
+        "sections": [
           {
             "name": "Appetizers",
             "description": "incididunt mollit est anim velit eiusmod sunt esse mollit velit ipsum elit ullamco voluptate aute irure aute do laboris cillum eiusmod irure quis laborum aute",
@@ -48590,8 +48590,8 @@
       },
       {
         "name": "Lunch",
-        "notes": "Ad id sit fugiat elit aliqua aute.",
-        "categories": [
+        "footnote": "Ad id sit fugiat elit aliqua aute.",
+        "sections": [
           {
             "name": "Entree",
             "description": "minim dolor occaecat pariatur et nisi irure sit aute occaecat do consequat dolor ullamco eiusmod anim sunt in aliquip occaecat nulla laborum eu reprehenderit enim",
