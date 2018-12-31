@@ -1,3 +1,21 @@
 .menu-button-link {
-  color: red;
+  border-color: rgb(197, 196, 196);
+  border-radius: 2px;
+  margin-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 10px 10px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 10px;
 }
+
+#menu-navigation {
+  border-bottom: 1px solid rgb(197, 196, 196);
+  border-top: 1px solid rgb(197, 196, 196);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* <button class="button-menu-link__1j5RFIKk secondary__37FrTgAl base__1GdpdUto" type="button">Sunday Brunch</button> */
