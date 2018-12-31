@@ -20,8 +20,13 @@ module.exports = {
         },
       },
       {
-        test: /\.css/,
-        loaders: ExtractTextPlugin.extract('css-loader'),
+        test: [/\.css$/],
+        exclude: /node_modules/,
+        loaders: ExtractTextPlugin.extract(
+          'style-loader',
+          'css-loader',
+          'css?modules&importLoaders=1&localIdentName=[hash:base64:5]&minimize',
+        ),
       },
     ],
   },

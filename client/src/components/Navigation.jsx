@@ -2,6 +2,7 @@ import React from 'react';
 import style from '../styles/Navigation.css';
 
 const Navigation = (props) => {
+  console.log('STYLE ', style);
   let cardButtons = props.cardLinks.map((cardLink) => {
     return (
       <button className={style.button} id={cardLink.position} 
