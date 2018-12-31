@@ -5,15 +5,22 @@
 }
 
 .menu-button-link {
-  border-color: rgb(197, 196, 196);
-  border-radius: 2px;
-  margin-right: 16px;
   margin-top: 8px;
+  margin-right: 16px;
   margin-bottom: 8px;
+  border-radius: 2px;
+  border-color: rgb(197, 196, 196);
   padding: 10px 10px;
-  font-family: BrandonText;
   font-size: 12px;
   font-weight: 30px;
+  font-family: BrandonText;
+  cursor: pointer;
+}
+
+.menu-button-link:focus {
+  outline: 0;
+  border-color: rgb(215,57,71);
+  border-width: 2px;
 }
 
 #menu-navigation {
@@ -22,6 +29,3 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-
-
-/* <button class="button-menu-link__1j5RFIKk secondary__37FrTgAl base__1GdpdUto" type="button">Sunday Brunch</button> */

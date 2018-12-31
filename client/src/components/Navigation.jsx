@@ -1,8 +1,8 @@
 import React from 'react';
+// is inserting css into html head
 import style from '../styles/Navigation.css';
 
 const Navigation = (props) => {
-  console.log('STYLE ', style);
   let cardButtons = props.cardLinks.map((cardLink) => {
     return (
       <button className="menu-button-link" id={cardLink.position} 
