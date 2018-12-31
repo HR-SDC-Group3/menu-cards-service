@@ -1,3 +1,9 @@
+@font-face{
+  font-family: BrandonText;
+  src: url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff2) format("woff2"),
+  url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff) format("woff")
+}
+
 .menu-button-link {
   border-color: rgb(197, 196, 196);
   border-radius: 2px;
@@ -5,9 +11,9 @@
   margin-top: 8px;
   margin-bottom: 8px;
   padding: 10px 10px;
-  font-family: Arial;
+  font-family: BrandonText;
   font-size: 12px;
-  font-weight: 10px;
+  font-weight: 30px;
 }
 
 #menu-navigation {
