@@ -5,7 +5,7 @@ const Navigation = (props) => {
   console.log('STYLE ', style);
   let cardButtons = props.cardLinks.map((cardLink) => {
     return (
-      <button className={style.button} id={cardLink.position} 
+      <button className="menu-button-link" id={cardLink.position} 
       onClick={(e) => { props.switchCard(e.target.id) }}>
         {cardLink.name}
       </button>

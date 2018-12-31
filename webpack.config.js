@@ -22,15 +22,16 @@ module.exports = {
       {
         test: [/\.css$/],
         exclude: /node_modules/,
-        loaders: ExtractTextPlugin.extract(
-          'style-loader',
-          'css-loader',
-          'css?modules&importLoaders=1&localIdentName=[hash:base64:5]&minimize',
-        ),
+        loaders: ['style-loader', 'css-loader'],
+        // loaders: ExtractTextPlugin.extract(
+        //   'style-loader',
+        //   'css-loader',
+        //   'css?modules&importLoaders=1&localIdentName=[hash:base64:5]&minimize',
+        // ),
       },
     ],
   },
-  plugins: [
-    new ExtractTextPlugin('styles.css'),
-  ],
+  // plugins: [
+  //   new ExtractTextPlugin('styles.css'),
+  // ],
 };
