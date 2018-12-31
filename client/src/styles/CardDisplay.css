@@ -1,0 +1,30 @@
+@font-face{
+  font-family: BrandonTextReg;
+  src: url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_red-webfont.woff2) format("woff2"),
+  url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff) format("woff");
+}
+
+.menu-card-display {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: BrandonTextReg;
+}
+
+.menu-section {
+  border-bottom: 1px solid rgb(197, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-section-name {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.menu-section-description {
+  font-size: 13px;
+}
+
+.menu-items {
+  font-size: 13px;
+}

@@ -1,19 +1,29 @@
 @font-face{
-  font-family: BrandonText;
-  src: url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff2) format("woff2"),
-  url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff) format("woff")
+  font-family: BrandonTextBld;
+  src: url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_bld-webfont.woff2) format("woff2"),
+  url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_bld-webfont.woff) format("woff");
+  font-weight: 700;
 }
 
+#menu-app {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#menu-title {
+  font-size: 1.4rem;
+  font-family: BrandonTextBld;
+}
 .menu-button-link {
   margin-top: 8px;
   margin-right: 16px;
   margin-bottom: 8px;
   border-radius: 2px;
-  border-color: rgb(197, 196, 196);
-  padding: 10px 10px;
+  border-color: rgb(212, 211, 211);
+  padding: 9px 13px;
   font-size: 12px;
-  font-weight: 30px;
-  font-family: BrandonText;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
   cursor: pointer;
 }
 
@@ -26,6 +36,7 @@
 #menu-navigation {
   border-bottom: 1px solid rgb(197, 196, 196);
   border-top: 1px solid rgb(197, 196, 196);
-  margin-left: 10px;
   margin-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }

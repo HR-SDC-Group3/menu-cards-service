@@ -1,5 +1,6 @@
 import React from 'react';
 import Items from './Items.jsx';
+import style from '../styles/CardDisplay.css'
 
 const CardDisplay = (props) => {
   let sections = props.card.sections.map((section) => {

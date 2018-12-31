@@ -54,7 +54,7 @@ class App extends React.Component {
   render() { 
     return ( 
       <div>
-        <h1 id="menu">Menu</h1>
+        <h1 id="menu-title">Menu</h1>
         <Navigation cardLinks={this.state.cardLinks} switchCard={this.switchCard}/>
         {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} />) : (null)}
       </div>
@@ -62,6 +62,6 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('menu-app'));
 
 export default App;
