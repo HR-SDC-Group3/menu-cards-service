@@ -23,8 +23,25 @@
 
 .menu-section-description {
   font-size: 13px;
+  padding-bottom: 10px;
 }
 
 .menu-items {
   font-size: 13px;
+  column-count: 2;
 }
+
+.menu-item-price {
+  float: right;
+  clear: none;
+}
+
+.menu-item-description {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.menu-add-on {
+  column-count: 2;
+}
+
