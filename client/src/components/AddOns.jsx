@@ -5,7 +5,7 @@ const AddOns = (props) => {
     return (
       <div className="menu-add-on">
         <div className="menu-add-on-name">
-          |  Add {addOn.name}
+        Add {addOn.name}
         </div>
         <div className="menu-add-on-price">
           +{addOn.price}
