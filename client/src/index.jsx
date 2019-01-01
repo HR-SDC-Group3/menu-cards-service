@@ -57,6 +57,7 @@ class App extends React.Component {
         <h1 id="menu-title">Menu</h1>
         <Navigation cardLinks={this.state.cardLinks} switchCard={this.switchCard}/>
         {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} />) : (null)}
+        <button className="menu-expand">View full menu</button>
       </div>
      );
   }
