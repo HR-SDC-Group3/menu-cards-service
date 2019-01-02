@@ -27,10 +27,13 @@
   cursor: pointer;
 }
 
-.menu-button-link:focus {
-  outline: 0;
+.menu-button-active {
   border-color: rgb(215,57,71);
   border-width: 2px;
+}
+
+.menu-button-link:focus {
+  outline: 0;
 }
 
 #menu-navigation {

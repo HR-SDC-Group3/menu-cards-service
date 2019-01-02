@@ -11,7 +11,8 @@ class App extends React.Component {
     this.state = {
       menu: {},
       cardLinks: [],
-      activeCard: {}
+      activeCard: {},
+      activeCardPosition: '0'
     }
     
     this.getMenu = this.getMenu.bind(this);
@@ -48,14 +49,14 @@ class App extends React.Component {
   
   switchCard(position) {
     let activeCard = this.state.menu.cards[position];
-    this.setState({activeCard});
+    this.setState({activeCard, activeCardPosition: position});
   }
 
   render() { 
     return ( 
       <div>
         <h1 id="menu-title">Menu</h1>
-        <Navigation cardLinks={this.state.cardLinks} switchCard={this.switchCard}/>
+        <Navigation cardLinks={this.state.cardLinks} activeCardPosition={this.state.activeCardPosition} switchCard={this.switchCard}/>
         {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} />) : (null)}
         <button className="menu-expand">View full menu</button>
       </div>
