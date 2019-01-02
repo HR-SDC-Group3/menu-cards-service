@@ -1,6 +1,7 @@
 # Project Name
 
-> Project description
+> An implementation of a React menu preview component based on OpenTable's individual item restaurants.
+
 
 ## Related Projects
 
@@ -17,7 +18,13 @@
 
 ## Usage
 
-> Some usage instructions
+> In the root directory, run `npm install` to download all node-modules from package.json.
+> In a terminal window, run `mongod` to start MongoDB. 
+> In another terminal, run `npm run seedDB` to add sample data to MongoDB.
+> Run `npm run react-dev` to launch webpack.
+> In another terminal window, run `npm start` to launch the server.
+
+> Navigate to `http://localhost:3001/restaurants/70/` to preview component.
 
 ## Requirements
 
