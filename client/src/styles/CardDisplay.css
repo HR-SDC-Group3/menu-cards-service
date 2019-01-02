@@ -4,7 +4,7 @@
   url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_reg-webfont.woff) format("woff");
 }
 
-.menu-card-display:before {
+.menu-card-collapsed:before {
   content:'';
   width:100%;
   height:100%;    
@@ -14,14 +14,19 @@
   background:linear-gradient(transparent 100px, white);
 }
 
-.menu-card-display {
+.menu-card-collapsed {
   font-size: 14px;
   font-weight: 600;
   font-family: BrandonTextReg;
   position: relative;
   max-height: 400px;
   overflow: hidden;
-  /* transition: max-height 1s ease; */
+}
+
+.menu-card-display {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: BrandonTextReg;
 }
 
 .menu-section {
@@ -78,7 +83,7 @@
   display: block;
   border-radius: 2px;
   border-color: rgb(212, 211, 211);
-  padding: 12px 80px;
+  padding: 14px 80px;
   font-size: 14px;
   font-weight: 500;
   color: rgb(34, 34, 34);
@@ -91,5 +96,31 @@
 }
 
 .menu-expand:focus {
+  outline: 0;
+}
+
+.menu-collapse {
+  margin: auto;
+  display: block;
+  border-radius: 2px;
+  border-color: rgb(212, 211, 211);
+  padding: 14px 80px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+  position: fixed;
+  bottom: 13%;
+  /* right: 30%; */
+  box-shadow: rgba(51,51,51,.2) 0 2px 4px;
+  /* transform: translate(50%, 50%); */
+}
+
+.menu-collapse:hover {
+  border-color: rgb(215,57,71);
+  border-width: 2px;
+}
+
+.menu-collapse:focus {
   outline: 0;
 }

@@ -12,12 +12,14 @@ class App extends React.Component {
       menu: {},
       cardLinks: [],
       activeCard: {},
-      activeCardPosition: '0'
+      activeCardPosition: '0',
+      isCollapsed: true
     }
     
     this.getMenu = this.getMenu.bind(this);
     this.storeMenu = this.storeMenu.bind(this);
     this.switchCard = this.switchCard.bind(this);
+    this.toggleCollapse = this.toggleCollapse.bind(this);
   }
   
   componentDidMount() {
@@ -52,13 +54,23 @@ class App extends React.Component {
     this.setState({activeCard, activeCardPosition: position});
   }
 
+  toggleCollapse() {
+    this.setState({isCollapsed: !this.state.isCollapsed});
+  }
+
   render() { 
     return ( 
       <div>
         <h1 id="menu-title">Menu</h1>
         <Navigation cardLinks={this.state.cardLinks} activeCardPosition={this.state.activeCardPosition} switchCard={this.switchCard}/>
-        {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} />) : (null)}
-        <button className="menu-expand">View full menu</button>
+        {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} isCollapsed={this.state.isCollapsed}/>) : (null)}
+        <div id="menu-button-wrapper">
+          {this.state.isCollapsed ? (
+            <button className="menu-expand" onClick={this.toggleCollapse}>View full menu</button>
+          ) : (
+            <button className="menu-collapse" onClick={this.toggleCollapse}>Collapse menu</button>
+          )}
+        </div>
       </div>
      );
   }
