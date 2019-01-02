@@ -1,0 +1,50 @@
+@font-face{
+  font-family: BrandonTextBld;
+  src: url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_bld-webfont.woff2) format("woff2"),
+  url(https://cdn.otstatic.com/common/font/Brandon/Brandon_txt_bld-webfont.woff) format("woff");
+  font-weight: 700;
+}
+
+#menu-app {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#menu-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-title {
+  font-size: 1.4rem;
+  font-family: BrandonTextBld;
+}
+.menu-button-link {
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  border-color: rgb(212, 211, 211);
+  padding: 9px 13px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+}
+
+.menu-button-active {
+  border-color: rgb(215,57,71);
+  border-width: 2px;
+}
+
+.menu-button-link:focus {
+  outline: 0;
+}
+
+#menu-navigation {
+  border-bottom: 1px solid rgb(197, 196, 196);
+  border-top: 1px solid rgb(197, 196, 196);
+  margin-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

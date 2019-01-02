@@ -11,30 +11,21 @@ class App extends React.Component {
     this.state = {
       menu: {},
       cardLinks: [],
-      activeCard: {}
+      activeCard: {},
+      activeCardPosition: '0',
+      isCollapsed: true
     }
-
+    
     this.getMenu = this.getMenu.bind(this);
     this.storeMenu = this.storeMenu.bind(this);
     this.switchCard = this.switchCard.bind(this);
+    this.toggleCollapse = this.toggleCollapse.bind(this);
   }
-
-  switchCard(position) {
-    let activeCard = this.state.menu.cards[position];
-    this.setState({activeCard});
-  }
-
-  storeMenu(menu) {
-    menu = menu[0];
-    let activeCard = menu.cards[0];
-    let cardLinks = menu.cards.map((card, i) => {
-      return {
-        name: card.name,
-        position: i
-      }
-    });
-
-    this.setState({ menu, cardLinks, activeCard });
+  
+  componentDidMount() {
+    let url = new Url(window.location.href);
+    let id = url.pathname.split('/')[2];
+    this.getMenu(id);
   }
 
   getMenu(id) {
@@ -44,24 +35,47 @@ class App extends React.Component {
       success: this.storeMenu
     })
   }
+  
+  storeMenu(menu) {
+    menu = menu[0];
+    let cardLinks = menu.cards.map((card, i) => {
+      return {
+        name: card.name,
+        position: i
+      }
+    });
+    let activeCard = menu.cards[0];
+    
+    this.setState({ menu, cardLinks, activeCard });
+  }
+  
+  switchCard(position) {
+    let activeCard = this.state.menu.cards[position];
+    this.setState({activeCard, activeCardPosition: position});
+  }
 
-  componentDidMount() {
-    let url = new Url(window.location.href);
-    let id = url.pathname.split('/')[2];
-    this.getMenu(id);
+  toggleCollapse() {
+    this.setState({isCollapsed: !this.state.isCollapsed});
   }
 
   render() { 
     return ( 
       <div>
-        <h1 id="menu">Menu</h1>
-        <Navigation cardLinks={this.state.cardLinks} switchCard={this.switchCard}/>
-        {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} />) : (null)}
+        <h1 id="menu-title">Menu</h1>
+        <Navigation cardLinks={this.state.cardLinks} activeCardPosition={this.state.activeCardPosition} switchCard={this.switchCard}/>
+        {this.state.activeCard.sections ? (<CardDisplay card={this.state.activeCard} isCollapsed={this.state.isCollapsed}/>) : (null)}
+        <div id="menu-button-wrapper">
+          {this.state.isCollapsed ? (
+            <button className="menu-expand" onClick={this.toggleCollapse}>View full menu</button>
+          ) : (
+            <button className="menu-collapse" onClick={this.toggleCollapse}>Collapse menu</button>
+          )}
+        </div>
       </div>
      );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('menu-app'));
 
 export default App;

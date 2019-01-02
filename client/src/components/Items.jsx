@@ -5,15 +5,15 @@ const Items = (props) => {
   let items = props.items.map((item) => {
     return (
       <div className="menu-item">
-        <div className="menu-item-name">
+        <span className="menu-item-name">
           {item.name}
-        </div>
-        <div className="menu-item-price">
+        </span>
+        <span className="menu-item-price">
           {item.price}
-        </div>
-        <p className="menu-item-description">
+        </span>
+        <div className="menu-item-description">
           {item.description}
-        </p>
+        </div>
         {item.addOns.length > 0 ? (<AddOns addOns={item.addOns} />) : (null)}
       </div>
     )

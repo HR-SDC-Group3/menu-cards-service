@@ -1,8 +1,9 @@
 import React from 'react';
 import Items from './Items.jsx';
+import style from '../styles/CardDisplay.css'
 
-const CardDisplay = (props) => {
-  let sections = props.card.sections.map((section) => {
+const CardDisplay = ({ card, isCollapsed }) => {
+  let sections = card.sections.map((section) => {
     return (
       <div className="menu-section">
         <div className="menu-section-name">{section.name}</div>
@@ -12,10 +13,10 @@ const CardDisplay = (props) => {
     )
   })
   return (
-    <div className="menu-card-display">
+    <div className={isCollapsed ? "menu-card-collapsed" : "menu-card-display"}>
       {sections}
       <div className="menu-card-footnote">
-        {props.card.footnote}
+        {card.footnote}
       </div>
     </div>
   )
