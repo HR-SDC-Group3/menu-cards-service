@@ -1,12 +1,14 @@
 const express = require('express');
 const morgan = require('morgan');
 const db = require('./../database/index.js');
+const cors = require('cors');
 
 const app = express();
 
 // -------- middleware -------- //
 app.use('/restaurants/:id/', express.static('client/dist/'));
 app.use(morgan('tiny'));
+app.use(cors());
 
 // -------- crud -------- //
 app.get('/api/restaurants/:id/menu', (req, res) => {
