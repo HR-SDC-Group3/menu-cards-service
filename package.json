@@ -8,7 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon node server",
+    "start": "node server",
+    "startdev": "nodemon node server",
     "react-dev": "webpack -d --watch",
     "test": "jest --watchAll",
     "seedDB": "mongoimport --db FEC --collection menus --file ./database/sampleData.json --jsonArray"
