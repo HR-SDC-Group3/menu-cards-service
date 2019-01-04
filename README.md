@@ -22,7 +22,7 @@
 > In a terminal window, run `mongod` to start MongoDB. 
 > In another terminal, run `npm run seedDB` to add sample data to MongoDB.
 > Run `npm run react-dev` to launch webpack.
-> In another terminal window, run `npm start` to launch the server.
+> In another terminal window, run `npm startdev` to launch the server with nodemon.
 
 > Navigate to `http://localhost:3001/restaurants/70/` to preview component.
 
