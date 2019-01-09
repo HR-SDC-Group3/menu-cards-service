@@ -20,6 +20,7 @@ const wstream = fs.createWriteStream(__dirname + '/sdc_dummydata.txt');
 let i = 0;
 
 const writeOne = () => {
+  
   while (i < NUM_OF_RECORDS){
     var addOns = []; 
     for (var j = 0; j < getRandomInt(2); j++) {
@@ -68,7 +69,7 @@ const writeOne = () => {
 
     i++;
   }
-    
+
   wstream.end(); 
 }
 
