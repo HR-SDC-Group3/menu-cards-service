@@ -24,3 +24,6 @@ coverage
 build/
 bundle.js
 
+## dummy data ##
+sdc_dummydata.txt
+

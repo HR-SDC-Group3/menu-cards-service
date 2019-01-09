@@ -43,6 +43,8 @@
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "eslint-plugin-import": "^2.14.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "faker": "^4.1.0",
+    "file-system": "^2.2.2",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
     "react-test-renderer": "^16.7.0",
