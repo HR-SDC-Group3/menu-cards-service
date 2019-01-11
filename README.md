@@ -52,7 +52,7 @@ UPDATE
 - Endpoint: /api/restaurants/:id/menu
 - Required Parameters: restaurant id
 - Body: single menu to be added to an array of menu cards for a given restaurant. 
-- Expected Output: Adds an existing menu card for an existing restaurant 
+- Expected Output: retrieves all menu cards for an existing restaurant 
 
 DELETE
 - HTTP request method: DELETE
@@ -60,7 +60,7 @@ DELETE
 - Required Parameters: id
 - Body: condition for identifying the menu card to be deleted 
 - { name: "Lunch" }
-- Expected Output: Deletes a menu card for an existing restaurant 
+- Expected Output: retrieves all menu cards for an existing restaurant 
 
 ### Installing Dependencies
 
