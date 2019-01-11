@@ -25,5 +25,6 @@ build/
 bundle.js
 
 ## dummy data ##
-sdc_dummydata.txt
+data.csv
+sdc_dummydata.json
 
