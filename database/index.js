@@ -41,7 +41,7 @@ const Menu = mongoose.model('Menu', menuSchema);
 
 // -------- database queries -------- //
 
-const insertOne = (id, payload, cb) => {
+const insertAll = (id, payload, cb) => {
   var conditions = { _id: id };
   var newMenu = payload;
   Menu.findOneAndReplace(conditions, newMenu, (err, menu) => {
@@ -61,7 +61,7 @@ const retrieveAll = (id, cb) => {
   });
 };
 
-const updateOne = (id, payload, cb) => {
+const addOne = (id, payload, cb) => {
   var conditions = { _id: id };
   var menuCard = payload;
   Menu.findOneAndUpdate(conditions, 
@@ -74,19 +74,22 @@ const updateOne = (id, payload, cb) => {
   })
 }
 
-const deleteOne = (id, cb) => {
+const deleteOne = (id, payload, cb) => {
   var conditions = { _id: id };
-  Menu.findOneAndRemove(conditions, (err, menu) => {
+  var menuCardName = payload;
+  Menu.findOneAndUpdate(conditions, 
+    { $pull: { cards: menuCardName }}, 
+    (err, menu) => {
     if (err) console.error(err);
 
-    console.log('+++Inserting menu into DB: ', menu);
+    console.log('+++Updating menu in DB: ', menu);
     cb(menu);
-  })  
+  })
 }
 
 module.exports = {
-  insertOne, 
+  insertAll, 
   retrieveAll,
-  updateOne,
+  addOne,
   deleteOne,
 };

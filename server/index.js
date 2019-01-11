@@ -16,7 +16,7 @@ app.use(cors());
 
 app.post('/api/restaurants/:id/menu', (req, res) => {
   console.log('---Server receiving POST request to id: ', req.params.id, 'with payload: ', req.body);
-  db.insertOne(req.params.id, req.body, (menu) => {
+  db.insertAll(req.params.id, req.body, (menu) => {
     console.log(menu)
     res.send(menu);
   }) 
@@ -31,15 +31,15 @@ app.get('/api/restaurants/:id/menu', (req, res) => {
 
 app.patch('/api/restaurants/:id/menu/', (req, res) => {
   console.log('---Server receiving PATCH request to id: ', req.params.id, 'with payload: ', req.body);
-  db.updateOne(req.params.id, req.body, (menu) => {
+  db.addOne(req.params.id, req.body, (menu) => {
     console.log(menu)
     res.send(menu);
   })
 })
 
 app.delete('/api/restaurants/:id/menu', (req, res) => {
-  console.log('--- Server receiving DELETE request to id: ', req.params.id);
-  db.deleteOne(req.params.id, (menu) => {
+  console.log('--- Server receiving DELETE request to id: ', req.params.id, 'with payload: ', req.body);
+  db.deleteOne(req.params.id, req.body, (menu) => {
     res.send(menu);
   });
 });

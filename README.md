@@ -38,26 +38,85 @@ CREATE
 HTTP request method: POST
 Endpoint: /api/restaurants/:id/menu
 Required Parameters: restaurant id 
-Body: menu (with one or more menu cards) 
-Expected Output: Returns all menus associated with a specific restaurant
+Body: bulk insert of all menus for a given restaurant. 
+
+  {
+    _id: 'Number',
+    cards: [
+      {
+        name: 'String',
+        footnote: 'String',
+        sections: [
+          {
+            name: 'String',
+            description: 'String',
+            items: [
+              {
+                name: 'String',
+                description: 'String',
+                price: 'String',
+                addOns: [
+                  {
+                    name: 'String',
+                    price: 'String',
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  }
+
+Expected Output: retrieves all menu cards for an existing restaurant 
 
 READ
 HTTP request method: GET
 Endpoint: /api/restaurants/:id/menu/:menucard
 Required Parameters: restaurant id 
-Expected Output: Inserts a new menu card for an existing restaurant 
+Expected Output: retrieves all menu cards for an existing restaurant 
 
 UPDATE
 HTTP request method: PATCH
 Endpoint: /api/restaurants/:id/reviews/:menucard
 Required Parameters: restaurant id
-Body: a single menu card  
-Expected Output: Replaces a menu card for an existing restaurant 
+Body: single menu to be added to an array of menu cards for a given restaurant. 
+
+  {   
+    name: 'String',
+    footnote: 'String',
+    sections: [
+      {
+        name: 'String',
+        description: 'String',
+        items: [
+          {
+            name: 'String',
+            description: 'String',
+            price: 'String',
+            addOns: [
+              {
+                name: 'String',
+                price: 'String',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  }
+
+Expected Output: Adds an existing menu card for an existing restaurant 
 
 DELETE
 HTTP request method: DELETE
 Endpoint: /api/restaurants/:id/reviews/:menucard
 Required Parameters: id
+Body: condition for identifying the menu card to be deleted 
+
+  { name: "Lunch" }
+
 Expected Output: Deletes a menu card for an existing restaurant 
 
 ### Installing Dependencies
