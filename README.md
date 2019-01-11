@@ -34,35 +34,35 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 ## Crud Operations
 
-> CREATE
-> HTTP request method: POST
-> Endpoint: /api/restaurants/:id/menu
-> Required Parameters: restaurant id 
-> Body: bulk insert of all menus for a given restaurant. 
-> Expected Output: retrieves all menu cards for an existing restaurant 
+CREATE
+- HTTP request method: POST
+- Endpoint: /api/restaurants/:id/menu
+- Required Parameters: restaurant id 
+- Body: bulk insert of all menus for a given restaurant. 
+- Expected Output: retrieves all menu cards for an existing restaurant 
 
-> READ
-> HTTP request method: GET
-> Endpoint: /api/restaurants/:id/menu/:menucard
-> Required Parameters: restaurant id 
-> Expected Output: retrieves all menu cards for an existing restaurant 
+READ
+- HTTP request method: GET
+- Endpoint: /api/restaurants/:id/menu/:menucard
+- Required Parameters: restaurant id 
+- Expected Output: retrieves all menu cards for an existing restaurant 
 
-> UPDATE
-> HTTP request method: PATCH
-> Endpoint: /api/restaurants/:id/reviews/:menucard
-> Required Parameters: restaurant id
-> Body: single menu to be added to an array of menu cards for a given restaurant. 
-> Expected Output: Adds an existing menu card for an existing restaurant 
+UPDATE
+- HTTP request method: PATCH
+- Endpoint: /api/restaurants/:id/reviews/:menucard
+- Required Parameters: restaurant id
+- Body: single menu to be added to an array of menu cards for a given restaurant. 
+- Expected Output: Adds an existing menu card for an existing restaurant 
 
-> DELETE
-> HTTP request method: DELETE
-> Endpoint: /api/restaurants/:id/reviews/:menucard
-> Required Parameters: id
-> Body: condition for identifying the menu card to be deleted 
+DELETE
+- HTTP request method: DELETE
+- Endpoint: /api/restaurants/:id/reviews/:menucard
+- Required Parameters: id
+- Body: condition for identifying the menu card to be deleted 
 
-  { name: "Lunch" }
+- { name: "Lunch" }
 
-> Expected Output: Deletes a menu card for an existing restaurant 
+- Expected Output: Deletes a menu card for an existing restaurant 
 
 ### Installing Dependencies
 
