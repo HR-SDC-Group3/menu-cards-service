@@ -10,18 +10,26 @@ const getRandomInt = (max) => {
   return Math.ceil(Math.random() * Math.floor(max));
 }
 
+const cards = ["Breakfast", "Lunch", "Dinner", "Brunch", "Prixfixe", "Set Menu"]
+
+const getRandomCard = () => {
+  return cards[Math.floor(Math.random() * cards.length)]
+}
+
 //////////////////////////
 // Dummy Data Generator //
 //////////////////////////
 
 var NUM_OF_RECORDS = 10000000
 
-const wstream = fs.createWriteStream(__dirname + '/sdc_dummydata.txt');
+const wstream = fs.createWriteStream(path.join(__dirname, '/data.csv'), { flags: 'w' });
 let i = 0;
 
-const writeOne = () => {
+const writeData = () => {
+
+  let proceed = true; 
   
-  while (i < NUM_OF_RECORDS){
+  while (i < NUM_OF_RECORDS && proceed) {
     var addOns = []; 
     for (var j = 0; j < getRandomInt(2); j++) {
       addOns.push({
@@ -52,7 +60,7 @@ const writeOne = () => {
     var cards = [];
     for (var m =0; m < getRandomInt(5); m++) {
       cards.push({
-        name: faker.lorem.words(),
+        name: getRandomCard(),
         footnote: faker.lorem.words(),
         sections: sections,
       })
@@ -62,20 +70,18 @@ const writeOne = () => {
       _id: i, 
       cards: cards,
     }
-        
-    if(!wstream.write(JSON.stringify(entry))) {
-      return;
-    }
 
-    i++;
+    proceed = wstream.write(JSON.stringify(entry) + '\n');
+    i ++;
+
   }
 
-  wstream.end(); 
+  if (!proceed) {
+    wstream.once('drain', () => {
+      writeData();
+    });
+  }
+
 }
 
-wstream.on('drain', () => {
-	writeOne();
-});
-
-writeOne();
-
+writeData();
