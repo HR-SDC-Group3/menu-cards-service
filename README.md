@@ -2,7 +2,6 @@
 
 > An implementation of a React menu preview component based on OpenTable's individual item restaurants.
 
-
 ## Related Projects
 
   - https://github.com/teamName/repo
@@ -13,8 +12,8 @@
 ## Table of Contents
 
 1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+2. [Requirements](#requirements)
+3. [Crud Operations](#crudoperations)
 
 ## Usage
 
@@ -33,7 +32,35 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 - Node 6.13.0
 - etc
 
-## Development
+## Crud Operations
+
+CREATE
+- HTTP request method: POST
+- Endpoint: /api/restaurants/:id/menu
+- Required Parameters: restaurant id 
+- Body: bulk insert of all menus for a given restaurant. 
+- Expected Output: retrieves all menu cards for an existing restaurant 
+
+READ
+- HTTP request method: GET
+- Endpoint: /api/restaurants/:id/menu
+- Required Parameters: restaurant id 
+- Expected Output: retrieves all menu cards for an existing restaurant 
+
+UPDATE
+- HTTP request method: PATCH
+- Endpoint: /api/restaurants/:id/menu
+- Required Parameters: restaurant id
+- Body: single menu to be added to an array of menu cards for a given restaurant. 
+- Expected Output: retrieves all menu cards for an existing restaurant 
+
+DELETE
+- HTTP request method: DELETE
+- Endpoint: /api/restaurants/:id/menu
+- Required Parameters: id
+- Body: condition for identifying the menu card to be deleted 
+- { name: "Lunch" }
+- Expected Output: retrieves all menu cards for an existing restaurant 
 
 ### Installing Dependencies
 
