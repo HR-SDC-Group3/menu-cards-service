@@ -71,3 +71,22 @@ npm install -g webpack
 npm install
 ```
 
+### Creating database and tables in Postgres
+
+From the terminal: 
+
+postgres --version 
+
+createdb FEC
+
+psql -U edwu -d FEC -a -f schema.sql
+
+\copy restaurants(name) FROM './restaurants.csv' DELIMITER ',' CSV;
+
+dropdb <DBNAME>
+
+\timing
+\list
+\dt 
+
+\q

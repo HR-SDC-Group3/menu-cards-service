@@ -87,6 +87,10 @@ const deleteOne = (id, payload, cb) => {
   })
 }
 
+Menu.find({_id: 1 }, (err, results) => {
+  console.log(results);
+})
+
 module.exports = {
   insertAll, 
   retrieveAll,
