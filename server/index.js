@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const cors = require('cors');
-const db = require('./../database/index.js');
+const db = require('../mongo_database/index.js');
 
 const app = express();
 

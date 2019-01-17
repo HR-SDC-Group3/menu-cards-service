@@ -10,6 +10,7 @@ db.once('open', () => {
 
 const menuSchema = new mongoose.Schema({
   _id: 'Number',
+  restaurantName: 'String',
   cards: [
     {
       name: 'String',
@@ -86,6 +87,10 @@ const deleteOne = (id, payload, cb) => {
     cb(menu);
   })
 }
+
+Menu.find({_id: 1 }, (err, results) => {
+  console.log(results);
+})
 
 module.exports = {
   insertAll, 

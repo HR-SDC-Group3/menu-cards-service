@@ -67,7 +67,8 @@ const writeData = () => {
     }
       
     var entry = {
-      _id: i, 
+      _id: i,
+      restaurantName: 'restaurant' + i.toString(),
       cards: cards,
     }
 
