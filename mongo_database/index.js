@@ -10,6 +10,7 @@ db.once('open', () => {
 
 const menuSchema = new mongoose.Schema({
   _id: 'Number',
+  restaurantName: 'String',
   cards: [
     {
       name: 'String',

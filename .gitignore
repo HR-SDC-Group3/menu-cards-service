@@ -26,5 +26,12 @@ bundle.js
 
 ## dummy data ##
 data.csv
+sampleData.json
 sdc_dummydata.json
+addOns.csv
+cards.csv
+items.csv
+restaurants.csv
+sections.csv
+
 

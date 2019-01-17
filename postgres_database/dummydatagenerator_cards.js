@@ -17,12 +17,13 @@ const getRandomCard = () => {
 }
 
 ///////////////////////
-// Restaurants Table //
+// Cards Table //
 ///////////////////////
 
-var NUM_OF_RECORDS = 100
+var NUM_OF_RECORDS = 25000000;
+var Num_OF_RESTAURANTS = 9999999;
 
-const wstream = fs.createWriteStream(path.join(__dirname, '/restaurants.csv'), { flags: 'w' });
+const wstream = fs.createWriteStream(path.join(__dirname, '/cards.csv'), { flags: 'w' });
 let i = 0;
 
 const writeData = () => {
@@ -34,12 +35,12 @@ const writeData = () => {
     var entry; 
 
     if(i === 0) {
-      entry = 'name';
+      entry = `name, footnote, restaurant_id`;
     } else {
-      entry = faker.lorem.words();
+      entry = `${getRandomCard()}, ${faker.lorem.words()}, ${getRandomInt(Num_OF_RESTAURANTS)}`;
     }
 
-    proceed = wstream.write(JSON.stringify(entry) + '\n');
+    proceed = wstream.write(`${entry} \n`);
     i ++;
 
   }
@@ -49,7 +50,6 @@ const writeData = () => {
       writeData();
     });
   }
-
 }
 
 writeData();

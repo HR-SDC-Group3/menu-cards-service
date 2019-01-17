@@ -12,7 +12,7 @@
     "startdev": "nodemon node server",
     "react-dev": "webpack -d --watch",
     "test": "jest --watchAll",
-    "seedDB": "mongoimport --db FEC --collection menus --file ./database/sampleData.json --jsonArray"
+    "seedMongoDB": "mongoimport --db FEC --collection menus --file ./mongo_database/data.csv"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

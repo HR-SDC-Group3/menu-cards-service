@@ -3,10 +3,10 @@
 
 CREATE TABLE restaurants (
   id SERIAL PRIMARY KEY,
-  name VARCHAR NOT NULL
+  restaurantName VARCHAR NOT NULL
 );
 
-CREATE TABLE menucard (
+CREATE TABLE cards (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
   footnote VARCHAR NOT NULL, 
@@ -14,27 +14,27 @@ CREATE TABLE menucard (
   FOREIGN KEY (restaurant_id) REFERENCES restaurants(id)
 );
 
-CREATE TABLE menusection (
+CREATE TABLE sections (
   id SERIAL PRIMARY KEY, 
+  name VARCHAR NOT NULL, 
   description VARCHAR NOT NULL, 
-  menucard_id INTEGER NOT NULL, 
-  FOREIGN KEY (menucard_id) REFERENCES menucard(id)
-)
+  card_id INTEGER NOT NULL, 
+  FOREIGN KEY (card_id) REFERENCES cards(id)
+);
 
-CREATE TABLE item (
-  name SERIAL PRIMARY KEY, 
+CREATE TABLE items (
+  id SERIAL PRIMARY KEY, 
+  name VARCHAR NOT NULL,
   description VARCHAR NOT NULL, 
   price INTEGER NOT NULL, 
-  menusection_id INTEGER NOT NULL, 
-  FOREIGN KEY (menusection_id) REFERENCES menusection(id)
-) 
+  section_id INTEGER NOT NULL, 
+  FOREIGN KEY (section_id) REFERENCES sections(id)
+);
 
-CREATE addons (
-  name SERIAL PRIMARY KEY, 
-  price INTEGER NOT NULL, 
-  item 
-  
-)
-
-\d restaurants;
-\d menucard;
+CREATE TABLE addOns (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL, 
+  price INTEGER NOT NULL,  
+  item_id INTEGER NOT NULL, 
+  FOREIGN KEY (item_id) REFERENCES items(id)
+);
