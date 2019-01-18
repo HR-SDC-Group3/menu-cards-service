@@ -1,3 +1,4 @@
+var newrelic = require('newrelic');
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser')
@@ -14,6 +15,20 @@ app.use(cors());
 
 // -------- crud -------- //
 
+// app.get('/api/restaurants/:id/menu', (req, res) => {
+//   console.log('--- Server receiving GET request to id: ', req.params.id);
+//   db.retrieveAllById(req.params.id, (menu) => {
+//     res.send(menu);
+//   });
+// });
+
+app.get('/api/restaurants/:id/menu', (req, res) => {
+  console.log('--- Server receiving GET request to restaurant: ', req.params.id);
+  db.retrieveAllByRestaurant(req.params.id, (menu) => {
+    res.send(menu);
+  });
+});
+
 app.post('/api/restaurants/:id/menu', (req, res) => {
   console.log('---Server receiving POST request to id: ', req.params.id, 'with payload: ', req.body);
   db.insertAll(req.params.id, req.body, (menu) => {
@@ -21,13 +36,6 @@ app.post('/api/restaurants/:id/menu', (req, res) => {
     res.send(menu);
   }) 
 })
-
-app.get('/api/restaurants/:id/menu', (req, res) => {
-  console.log('--- Server receiving GET request to id: ', req.params.id);
-  db.retrieveAll(req.params.id, (menu) => {
-    res.send(menu);
-  });
-});
 
 app.patch('/api/restaurants/:id/menu/', (req, res) => {
   console.log('---Server receiving PATCH request to id: ', req.params.id, 'with payload: ', req.body);

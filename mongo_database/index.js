@@ -42,30 +42,39 @@ const Menu = mongoose.model('Menu', menuSchema);
 
 // -------- database queries -------- //
 
-const insertAll = (id, payload, cb) => {
-  var conditions = { _id: id };
-  var newMenu = payload;
-  Menu.findOneAndReplace(conditions, newMenu, (err, menu) => {
-    if (err) console.error(err);
-
-    console.log('+++Inserting menu into DB: ', menu);
-    cb(menu);
-  })  
-}
-``
-const retrieveAll = (id, cb) => {
+const retrieveAllById = (id, cb) => {
   Menu.find({ _id: id }, (err, menu) => {
     if (err) console.error(err);
-
     console.log('+++Retrieving menu from DB: ', menu);
     cb(menu);
   });
 };
 
+const retrieveAllByRestaurant = (id, cb) => {
+  var filter = { restaurantName: "restaurant" + id.toString() }
+  Menu.find(filter, (err, menu) => {
+    if (err) console.error(err);
+    console.log('+++Retrieving menu from DB: ', menu);
+    cb(menu);
+  })
+}
+
+const insertAll = (id, payload, cb) => {
+  // var conditions = { _id: id };
+  var filter = { restaurantName: "restaurant" + id.toString() }
+  var newMenu = payload;
+  Menu.findOneAndReplace(filter, newMenu, (err, menu) => {
+    if (err) console.error(err);
+    console.log('+++Inserting menu into DB: ', menu);
+    cb(menu);
+  })  
+}
+
 const addOne = (id, payload, cb) => {
-  var conditions = { _id: id };
+  // var conditions = { _id: id };
+  var filter = { restaurantName: "restaurant" + id.toString() }
   var menuCard = payload;
-  Menu.findOneAndUpdate(conditions, 
+  Menu.findOneAndUpdate(filter, 
     { $push: { cards: menuCard }}, 
     (err, menu) => {
     if (err) console.error(err);
@@ -76,9 +85,10 @@ const addOne = (id, payload, cb) => {
 }
 
 const deleteOne = (id, payload, cb) => {
-  var conditions = { _id: id };
+  // var conditions = { _id: id };
+  var filter = { restaurantName: "restaurant" + id.toString() }
   var menuCardName = payload;
-  Menu.findOneAndUpdate(conditions, 
+  Menu.findOneAndUpdate(filter, 
     { $pull: { cards: menuCardName }}, 
     (err, menu) => {
     if (err) console.error(err);
@@ -88,13 +98,10 @@ const deleteOne = (id, payload, cb) => {
   })
 }
 
-Menu.find({_id: 1 }, (err, results) => {
-  console.log(results);
-})
-
 module.exports = {
+  retrieveAllById,
+  retrieveAllByRestaurant,
   insertAll, 
-  retrieveAll,
   addOne,
   deleteOne,
 };
