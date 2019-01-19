@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const cors = require('cors');
 const db = require('../mongo_database/index.js');
-
+var cache = require('express-redis-cache')();
 const app = express();
 
 // -------- middleware -------- //
@@ -22,7 +22,7 @@ app.use(cors());
 //   });
 // });
 
-app.get('/api/restaurants/:id/menu', (req, res) => {
+app.get('/api/restaurants/:id/menu', cache.route(), (req, res) => {
   console.log('--- Server receiving GET request to restaurant: ', req.params.id);
   db.retrieveAllByRestaurant(req.params.id, (menu) => {
     res.send(menu);
