@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/FEC', { useNewUrlParser: true });
+const options = {
+  useNewUrlParser: true,
+  poolSize: 10,
+}
+
+mongoose.connect('mongodb://localhost/FEC', options);
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -56,7 +61,7 @@ const retrieveAllByRestaurant = (id, cb) => {
     if (err) console.error(err);
     console.log('+++Retrieving menu from DB: ', menu);
     cb(menu);
-  })
+  }).lean();
 }
 
 const insertAll = (id, payload, cb) => {
