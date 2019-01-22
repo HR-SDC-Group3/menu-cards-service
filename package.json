@@ -12,7 +12,8 @@
     "startdev": "nodemon node server",
     "react-dev": "webpack -d --watch",
     "test": "jest --watchAll",
-    "seedMongoDB": "mongoimport --db FEC --collection menus --file ./mongo_database/data.csv"
+    "seedMongoDB": "mongoimport --db FEC --collection menus --file ./mongo_database/data.csv",
+    "loadtest": "k6 run http_get.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
