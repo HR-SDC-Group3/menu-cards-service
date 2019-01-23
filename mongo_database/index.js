@@ -5,7 +5,7 @@ const options = {
   poolSize: 10,
 }
 
-mongoose.connect('mongodb://localhost/FEC', options);
+mongoose.connect('mongodb://18.222.227.22:27017/FEC', options);
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -110,3 +110,5 @@ module.exports = {
   addOne,
   deleteOne,
 };
+
+mongoose.connection.close()

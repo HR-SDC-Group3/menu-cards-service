@@ -22,7 +22,7 @@ const getRandomCard = () => {
 
 var NUM_OF_RECORDS = 10000000
 
-const wstream = fs.createWriteStream(path.join(__dirname, '/data.csv'), { flags: 'w' });
+const wstream = fs.createWriteStream(path.join(__dirname, '/data2.csv'), { flags: 'w' });
 let i = 0;
 
 const writeData = () => {
@@ -31,7 +31,7 @@ const writeData = () => {
   
   while (i < NUM_OF_RECORDS && proceed) {
     var addOns = []; 
-    for (var j = 0; j < getRandomInt(2); j++) {
+    for (var j = 0; j < getRandomInt(1); j++) {
       addOns.push({
         name: faker.lorem.words(),
         price: faker.commerce.price(),
@@ -39,9 +39,9 @@ const writeData = () => {
     }
     
     var items = [];
-    for (var k = 0; k < getRandomInt(6); k++) {
+    for (var k = 0; k < getRandomInt(4); k++) {
       items.push({
-        name: faker.lorem.words(),
+        name: faker.lorem.word(),
         description: faker.lorem.words(),
         price: faker.commerce.price(),
         addOns: addOns,
@@ -49,19 +49,19 @@ const writeData = () => {
     }
       
     var sections = [];
-    for (var l = 0; l < getRandomInt(5); l++) {
+    for (var l = 0; l < getRandomInt(2); l++) {
       sections.push({
-        name: faker.lorem.words(),
+        name: faker.lorem.word(),
         description: faker.lorem.words(),
         items: items,
       })
     }
       
     var cards = [];
-    for (var m =0; m < getRandomInt(5); m++) {
+    for (var m =0; m < getRandomInt(2); m++) {
       cards.push({
         name: getRandomCard(),
-        footnote: faker.lorem.words(),
+        footnote: faker.lorem.word(),
         sections: sections,
       })
     }

@@ -99,3 +99,27 @@ select count(*) from restaurants;
 \dt <table>
 
 \q
+
+## SCP ###
+
+scp -i "capstone-mongo.pem" ~/desktop/immersive/menu-cards-service/mongo_database/data2.csv ec2-user@ec2-18-222-227-22.us-east-2.compute.amazonaws.com:/home/ec2-user  
+
+mongoimport --db FEC --collection menus --file ./data.csv
+
+ssh -i "sdc-database.pem" ec2-user@ec2-18-220-71-89.us-east-2.compute.amazonaws.com
+
+## installing mongo ##
+
+sudo rm -rf /etc/yum.repos.d/mongod*
+
+sudo yum clean all
+
+sudo vi /etc/yum.repos.d/mongodb-org-4.0.repo
+
+sudo yum install -y mongodb-org
+
+##
+
+db.menus.count()
+
+db.menus.find()
