@@ -1,13 +1,6 @@
 # Project Name
 
-> An implementation of a React menu preview component based on OpenTable's individual item restaurants.
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+Local version of implementation of a React menu preview component based on OpenTable's individual item restaurants. Built with React, Express, MongoDB, and later deployed to AWS EC2 instances with Redis and Nginx. Database implementation using Postgres used during database benchmarking phase (query speeds on both dbs compared after loading 10 million records). 
 
 ## Table of Contents
 
@@ -17,19 +10,22 @@
 
 ## Usage
 
-> In root directory, run `npm install` to download all node-modules from package.json.
-> In terminal window, run `mongod` to start MongoDB. 
-> In another terminal, run `npm run seedDB` to seed sample data to MongoDB.
-> Run `npm run react-dev` to launch webpack.
-> In another terminal window, run `npm startdev` to launch the server with nodemon.
+Dependencies
+- In root directory, run `npm install` to download all node-modules from package.json.
 
-> Navigate to `http://localhost:3001/restaurants/70/` to preview component.
+Database setup 
+- In terminal window, run `mongod` to start MongoDB (should be installed locally)
+- In another terminal, run `npm run generateData`, and then `npm run seedDB` to seed 10 record sample data to MongoDB. Can manually change sample data size in ./mongo_database/dummydatagenerator.js 
+
+Launch in browser
+- Run `npm run react-dev` to launch webpack.
+- In another terminal window, run `npm startdev` to launch the server with nodemon.
+- Navigate to `http://localhost:3001/restaurants/1/` to preview component.
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
 - Node 6.13.0
+- MongoDB
 
 ## Crud Operations
 
