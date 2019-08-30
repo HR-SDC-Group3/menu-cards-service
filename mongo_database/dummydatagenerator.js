@@ -20,7 +20,7 @@ const getRandomCard = () => {
 // Dummy Data Generator //
 //////////////////////////
 
-var NUM_OF_RECORDS = 10000000
+var NUM_OF_RECORDS = 10
 
 const wstream = fs.createWriteStream(path.join(__dirname, '/data.csv'), { flags: 'w' });
 let i = 0;
